@@ -1,0 +1,3098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="97d6c987-af86-448d-bac8-319b19101935"
+  name="DominoClasses"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f5f50616-acaa-474d-94e3-315384ba8ef2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDominoClasses"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+        name="Domino"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5d2a5153-6695-4028-ac9b-d441e8749ba0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4a15c185-9e58-4cb2-b979-61ecc91248b7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc203246-b281-4c61-b142-eada79d3354e">
+                <propertyInstance
+                  Id="8c5dbfe7-e9c2-4646-a089-5ad0690541e4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f55abf7b-c9a6-4a50-8e87-9cce8c707558">
+                <propertyInstance
+                  Id="0a6bf19d-3acb-4837-9097-87a99469cf02"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43b41693-a503-4d3c-9b82-f9a47c704ca3">
+                <propertyInstance
+                  Id="ccd72729-3cc1-4d2a-84dd-752b187170a9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8616639-cc53-4fe3-aad9-7b810cde8374">
+                <propertyInstance
+                  Id="3ba3c029-9429-4c7b-ad27-9a620f25f2c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a681966-276c-46f7-83e3-ebe05658984f">
+                <propertyInstance
+                  Id="b5504514-853a-4a66-8578-8add72e80232"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cbfd192e-f59d-466c-a926-f036b1396c36"
+            name="GetPip1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7b2d36ab-168b-497a-ab68-9b0786183e19"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DGetPip1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b40ee162-0606-4535-8ac9-b04d1c4fa260"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d174462-7531-4177-9cac-3638df9d07ba">
+                    <propertyInstance
+                      Id="7a3965ad-a1fe-44ea-8361-8f4d03c9ae7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39c91a59-a55d-4498-a09e-238ce0b0a809">
+                    <propertyInstance
+                      Id="36c4b524-c056-402f-8d4c-5e4c99f11055"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8051be3f-43eb-4a34-b4ae-46b64945b833">
+                    <propertyInstance
+                      Id="b6de6464-1851-4e43-b23b-1e5f2b5d3965"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b135314d-b9e3-43f2-92f0-f58637e93b96">
+                    <propertyInstance
+                      Id="4d72529c-7485-4a1c-a987-ed85fe8832f8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef5488f9-3be0-4b2c-9dd0-1912516603d8">
+                    <propertyInstance
+                      Id="3d07dc8d-b538-45d5-8de3-a5819a3cd0e2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0af68ae4-be61-436b-b4c7-91bfdf1bf0d5">
+                    <propertyInstance
+                      Id="a6960377-e936-436b-ad0a-978bf571fea1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8699c5d-a091-4fc4-9648-ca4e422569b5">
+                    <propertyInstance
+                      Id="6eb2617c-d7f4-417e-b61c-ba384cddc2a7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5378a2ac-b901-44be-b482-e87863bd0a3f"
+            name="GetPip2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ae36ab7a-bc3a-447c-83e3-f213bf7d1052"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DGetPip2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="43463b7d-e5bb-40a4-ae5c-9904a1ef7719"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1f9ec2c-c2c2-4ba6-a828-dbf209b5156d">
+                    <propertyInstance
+                      Id="75ece3c1-0d81-4178-8625-9c8472b4386c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14778774-1120-4526-be49-7d904eba9873">
+                    <propertyInstance
+                      Id="534a7a48-cf29-43f3-9490-59a792811cb4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cc9ba05-9972-43b0-afdf-f23025e9d68f">
+                    <propertyInstance
+                      Id="103b8a06-34c0-415a-9173-641002628b91"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1e785b2-7c11-4de2-a95b-580b420531d4">
+                    <propertyInstance
+                      Id="e69490cd-80fb-471e-b659-48e3ac520864"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c627871-c731-415c-bd82-a542cfba0f0d">
+                    <propertyInstance
+                      Id="5310cc8d-07bd-48f5-bd6b-1b490ca7e5b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4586ddff-e8ae-4411-b91b-1658d3748dba">
+                    <propertyInstance
+                      Id="2327540d-2702-401b-af57-18b05f68aa37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e943ecb-99a2-46e9-a8fd-ae61fc4ecb6f">
+                    <propertyInstance
+                      Id="93639fea-9ebb-4cdc-b6c0-24aae05cf5c6"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="252567bb-bebf-422f-9f8b-71d6cc8528a4"
+            name="generator"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="08113d3a-6b70-4127-8931-c77675445aac"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3Dgenerator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c6fc7f97-841c-4ae6-897c-2a2dea1b0567"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0a11b53-bf28-4ab8-a3ca-d84a1f73793b">
+                    <propertyInstance
+                      Id="8ca2489c-cbd4-451b-a50c-ba3a135c5d17"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61939d74-4997-4872-b7f4-8a1bdcc2f687">
+                    <propertyInstance
+                      Id="1cafff3a-bf39-46c3-87f3-0037c42ad6d1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1ad6cbd-d01f-4347-a2c6-066ea980de94">
+                    <propertyInstance
+                      Id="00191cab-11fc-4df8-a4d4-8b4683c7c09c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e39b08bf-5602-44f5-b559-7b9344b27013">
+                    <propertyInstance
+                      Id="8e68af68-cd1d-4298-a96a-32b5b9ceb500"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="871a7eac-e3a1-4831-a005-bf3b785b69e0">
+                    <propertyInstance
+                      Id="661c31db-cc47-484c-8466-d29790b5574c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="860f2211-65cd-459b-a536-7a6e23e8f340"
+                LastKnownName="Random"
+                LastKnownLocation="Package1_1224.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dbb1d92b-4f96-4cf1-adde-2754dc073347"
+            name="pip"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8922653a-a77b-4be4-91b9-276509537ca5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3Dpip"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f8973ec-ea1a-4e70-830d-8e33bf581f2f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64730a79-7d81-41a2-a41e-0ad22d48b1a5">
+                    <propertyInstance
+                      Id="0cb83ecb-beaf-4090-8840-a68a480f160c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a83850b-a6e5-4795-ad35-14b515023abb">
+                    <propertyInstance
+                      Id="d98bee7a-b3d0-46bc-a916-d4a164dbd437"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ea79ca3-643c-41c1-b014-1358b79df7bd">
+                    <propertyInstance
+                      Id="374de863-37c7-44ca-b004-2949eeddf93a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ef251b2-6d40-4f5d-87ce-4e859535cf1e">
+                    <propertyInstance
+                      Id="e1dba24c-032e-4701-954b-730989545426"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9a74fe7-2e6a-47e4-943e-984a3b30c033">
+                    <propertyInstance
+                      Id="c50716fe-1033-455e-afe6-a92c2554c79f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="6c185c4b-96e9-4748-a487-3a5b7f291f04"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="f17d628f-b5d2-4ce8-bf76-5380383cde22"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="48c406d7-6402-47d0-a6ae-e1f812d55395"
+            name="pip1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f9fb2045-caf2-4f2c-ae45-af2f6145cb77"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3Dpip1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d28b8cf-ad55-42b9-8008-809e0a714199"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b035e6-4ef7-4c28-b3bd-6a8783f52b14">
+                    <propertyInstance
+                      Id="bd2971cf-4970-4cd6-a2e7-a480a2d73f64"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e78566f-58e0-4d71-b157-4748246ef7fd">
+                    <propertyInstance
+                      Id="30fe8243-9673-4c4b-87f4-0f8b4e1bc6cc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51fb2d44-21fd-4d92-8cf5-90814cb44619">
+                    <propertyInstance
+                      Id="ecc45562-65be-4bb3-a945-19b2abe63be9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66932234-6932-41ad-b807-9f2f20c671c0">
+                    <propertyInstance
+                      Id="f180459a-10e4-4464-9982-afbcfadfe516"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8103690b-a9e9-4e43-8eb7-8183dbcf2e61">
+                    <propertyInstance
+                      Id="c046780b-7a7e-4a2a-abab-7af93bb8a6f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e3e66843-b9e9-48ea-bd1d-76a411231baf"
+            name="pip2"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a8be687a-120e-4daa-bc90-8cd801e2e803"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3Dpip2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db6a699a-3010-40d7-936d-a85d5c4d0293"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f299e865-a371-47ee-aa2f-19db25dbcd4c">
+                    <propertyInstance
+                      Id="9a933f5a-bc53-4d18-9c04-ed68782e4912"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a0ecc56-3780-4ced-9632-264261dbf675">
+                    <propertyInstance
+                      Id="e2d0f448-714b-412f-bfa1-dc12f7ab0135"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fbe82bb-a64f-458d-85a9-84aa0c16b858">
+                    <propertyInstance
+                      Id="0d51700f-b591-4723-8924-e534ee2a176e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5430440-871e-4bcc-b53d-eaab5973191a">
+                    <propertyInstance
+                      Id="bf4563cc-a885-49c7-82dc-1f488dbdbdf0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="051bf724-4a11-4863-b36d-d9eebe8ead6c">
+                    <propertyInstance
+                      Id="91c91a34-ba58-4874-a056-d5c708e729d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7e92ef94-6641-4d4c-be7b-59d5039ab570"
+            name="score"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d0434037-37fb-49ae-b9d0-cf55d66e813a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3Dscore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4d92ec4e-137d-4dbd-aafc-a3202c15b883"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27d0253b-8b7b-46af-964e-a3167be5da4d">
+                    <propertyInstance
+                      Id="b8b22f76-d6cb-492a-a887-67278921cff8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2297d85-1ec4-4611-8920-9ea69a3272ac">
+                    <propertyInstance
+                      Id="ff1f5cf9-6f25-4a54-8cbe-ba21d75eda2a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3758f9a9-39dd-4e70-8507-3ef87e583f64">
+                    <propertyInstance
+                      Id="b85eebe1-c068-4b4f-8a10-c750849928c3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78c9d56b-e666-46f9-aae6-f3866e8ca122">
+                    <propertyInstance
+                      Id="8a1cf45e-a760-404b-9946-4a6caa9bf7d4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6f02f4d-dee2-4863-8f69-cdf28fa13375">
+                    <propertyInstance
+                      Id="730a14d6-6164-4fb0-9b0e-e4b6b488a45f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6c33293b-9792-4a08-a4b0-575cd038ccbd"
+            name="Domino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6438505c-d452-4e9c-bbaa-62553c4f152e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aaa42939-22fb-4629-8b04-66bae0807c83"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3297e5a1-427b-4ab8-b352-b3a3d5acd619">
+                    <propertyInstance
+                      Id="deddaf45-c36a-4034-9559-25aba4de0afb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd3a7c0d-c31b-42fb-a776-2b25bf51a90a">
+                    <propertyInstance
+                      Id="16021660-d6fb-42ce-902c-53f954bc519c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f847c96-548e-4073-a4a1-ed60a19cd509">
+                    <propertyInstance
+                      Id="f5617213-5d04-4e79-8b28-da1f3480f705"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0af7efc-1803-4d1a-aaf4-5aca3b252bbc">
+                    <propertyInstance
+                      Id="23b202d9-b7fb-494d-8e7e-357b8387f7d8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43d1863a-ae2c-4868-a6bc-70b4bd23bee3">
+                    <propertyInstance
+                      Id="10004422-c927-44a9-bcd7-34e03df4d835"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c506bbf0-b01b-4851-ba17-32669947f439">
+                    <propertyInstance
+                      Id="541425ee-8ad9-46eb-84e4-efe079e168ac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="44c2e7a8-ecf2-498e-a114-1e14f5585553"
+                  name="p1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0df0fe2a-4b36-4c22-a3a0-b25de432b35d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dp1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b88774a-ac55-46cd-a1a1-993a0b49d593"
+                  name="p2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="05bc2f40-b33a-42b3-9558-4aca75b0befe"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dp2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4e87d76a-1427-4844-b058-b6bc94577bb5"
+            name="Domino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cd39ff3c-4a83-4d83-ab51-55574ef5922e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe48041b-0037-4764-97e8-bfc4627229e3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="739d3516-3bc5-4897-931f-6a78c7d09703">
+                    <propertyInstance
+                      Id="0c98285c-724a-49de-89f8-19ac40075f97"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acda6d49-2437-4323-9959-a550c0927a1b">
+                    <propertyInstance
+                      Id="a46e063d-7551-4868-89e7-1aee2a36d4e8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="968c4636-8682-4d95-94d3-b119f1327f8d">
+                    <propertyInstance
+                      Id="04797732-e7e6-460d-94ae-5664e404603d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbd6a348-202b-4c76-a06b-94846d2eff44">
+                    <propertyInstance
+                      Id="2f0fd3bc-9500-4e63-a1be-2152b22c671d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b82d3d9-4b41-4480-ad59-0de4f308edfd">
+                    <propertyInstance
+                      Id="f02b0719-fb97-4c7c-959d-c4185ca009b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="387d4417-0b0c-4d04-8406-2068412e183e">
+                    <propertyInstance
+                      Id="eb7f5ea9-f479-42f0-834d-06d8576ce3b9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bdf29b65-c914-4963-bad2-bf65e52b5be4"
+            name="Flip"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="07052882-103e-4240-b325-72c4dcd0dea4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DFlip"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a2ffded-f4e9-48b3-a7f8-e020b97a945f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2add9c24-b9bf-40f0-9acd-ed5df57b7fcf">
+                    <propertyInstance
+                      Id="608e6efc-8a15-4cba-b079-fe3bcfbcdd47"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae9ca17e-320f-43f5-a2a8-836035d55f16">
+                    <propertyInstance
+                      Id="6845f8c2-1815-46f9-99d1-835f5a9e9a89"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44839e2f-aae7-47d8-909d-fc53323646f8">
+                    <propertyInstance
+                      Id="a7cb4078-5fb7-4b4d-9821-b7a390f06dac"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="754a933b-1fba-4055-a533-16dc8257e4d9">
+                    <propertyInstance
+                      Id="3f838af1-f659-4a0c-aa47-713354417d9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c69ac053-3160-4c93-a316-698aed49e52e">
+                    <propertyInstance
+                      Id="7dd90094-9611-46b4-bea5-ae87c8b20f90"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcb88182-ff53-40ec-bca2-84bd835dc308">
+                    <propertyInstance
+                      Id="d66d06f8-13a7-4fe0-a830-8e37ca6f8c56"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="41ca0ca9-e8a6-4829-aa66-c5d1e671ff60"
+            name="IsDouble"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a3eef516-f8d0-4c1e-a3fe-23f51d3d67f6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DIsDouble"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce3eed62-5891-4471-8fab-31582cd434c0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfea9388-2727-4a7a-85d1-0b62806334a2">
+                    <propertyInstance
+                      Id="ceda0653-86c9-4cc8-972c-84f5595319ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e318d5d7-1570-4bdd-ac5b-3b360bd17aab">
+                    <propertyInstance
+                      Id="20bc440b-32c4-4de8-bd5e-e9291103caf3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b66d17f5-b9a4-4912-a5e9-c043cb6f0676">
+                    <propertyInstance
+                      Id="ead2efbe-12f3-41e2-98dd-b66e9b474e25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d4838ac-b033-41d8-8c32-7ea8a0add6d6">
+                    <propertyInstance
+                      Id="6c16e23b-eca0-4d14-9e35-bb8f07f34285"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c98ef512-e694-4c7d-94a6-c125dce27377">
+                    <propertyInstance
+                      Id="d9d38183-0028-4eef-9eb0-48c83eda8f88"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="582ba6f6-896f-4195-ad03-b0e545ea85b2">
+                    <propertyInstance
+                      Id="f7dd90ec-c5d8-4513-a255-a5f80abc4628"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89ff399c-0e89-447c-a93f-b785d503dc64"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fda1bcb2-c397-4540-8e35-0d9a8cf585af"
+            name="Score"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fa3a42f5-8d0d-48c1-93b9-6cee3a35677b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DScore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a4788ff2-cdf1-4314-9f8f-a7a6a9f73150"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de9ab2e6-51ad-4bc4-ba26-847fac47dd78">
+                    <propertyInstance
+                      Id="94d8a37f-d8cc-402a-a1cf-12df0e99204b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0e14e20-0146-4b1a-9f76-241a8c90d7e0">
+                    <propertyInstance
+                      Id="34441681-55da-4d31-88db-1b2e0490c63d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c24dd9e-06c9-4f0f-88f7-1b37d91c285e">
+                    <propertyInstance
+                      Id="c0a46b52-bfcf-4de7-98c7-522cf9ad8652"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0abee250-3a47-427c-bc66-2e5003ebf684">
+                    <propertyInstance
+                      Id="fd1a50f8-24bf-4251-a9bb-ca0a7acde9b2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="282a9d19-4cb9-454b-a51d-4bef891af609">
+                    <propertyInstance
+                      Id="abf97cc4-8a0a-47c3-b5ce-be7c78234652"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7be1560-18cd-4a0f-8146-d9e7f1a76d33">
+                    <propertyInstance
+                      Id="16aadf9f-4929-4a75-b1df-98d47421c647"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ebd464eb-106a-4ec8-bc2f-d4c428e0c8bb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b65d3962-c0be-49ff-a599-8215030738de"
+            name="ToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="373b6a28-3551-4841-9745-29c1efaf2318"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino Member%3DToString"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dd2ef6e9-cf5c-4077-af6f-d092a2181a14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="402999bf-2be6-42e1-9a84-3a59aa661963">
+                    <propertyInstance
+                      Id="46e3143d-b637-4d19-a9e6-3e2d67284bf1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3c47b0b-5247-48d3-be93-f63edae4e520">
+                    <propertyInstance
+                      Id="bd3fc520-4d73-49f6-8f2e-5cf9fccab48f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8d9ff7d-c075-4d42-a62c-f9a2dc6bc8fe">
+                    <propertyInstance
+                      Id="e4218fb5-0336-46b8-add7-c62bfa920517"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="386e906d-3eb7-4cac-9be9-50148709ff58">
+                    <propertyInstance
+                      Id="922ebee9-2f58-4035-8bf0-d3132175f3c2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b00c92a-2101-4650-a11e-38d5669c8f74">
+                    <propertyInstance
+                      Id="32213ff3-f503-4d19-8988-c32d0e616155"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3368160b-1cd1-4856-959d-a0c639849ab1">
+                    <propertyInstance
+                      Id="dd894f55-e865-47ed-a1a6-3064974b3b4c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="840cbff8-f381-4082-aaf4-21cb89e9e7f6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d6987b0e-aa86-49f7-9ead-7235a7cdc013"
+        name="Set"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5a2a9a09-261b-4efa-9efc-45769d2aa63e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b306bbee-febe-4a89-a4f2-a97d06b86578"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65953a87-c5c0-4338-ab48-5c5dc47a1fe1">
+                <propertyInstance
+                  Id="2006ac78-6b02-4c97-a026-b39fc4758b68"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="feb7f44c-944b-4fba-ba0f-516b44b23fa5">
+                <propertyInstance
+                  Id="938a460f-86e7-41bc-98aa-a3186cedd1ad"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="10507bbc-df64-4b51-b3a8-78dd340453ef">
+                <propertyInstance
+                  Id="857953bf-80be-419e-9851-100cb4dd4b25"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a9abe9d-44ef-49cf-9515-3f58cd47d858">
+                <propertyInstance
+                  Id="cb0ed0f6-0d44-4fa1-927c-badc8446bca1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba7176f5-08bb-4ac7-b2f7-d489a744a714">
+                <propertyInstance
+                  Id="40723a61-1aad-4e5c-b98d-c3cd87b03c97"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="eefc42b5-428b-4500-9748-c1ae30d64368"
+            name="DominosRemaining"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ab607ec9-0963-4c7b-85f4-56d9d03a7806"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DDominosRemaining"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36cb7480-603f-44f3-890c-15319661c66b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23f9bd95-7d9d-42b8-960d-25b886cd1404">
+                    <propertyInstance
+                      Id="5363fa26-9b8b-49d8-b49c-841576ff809c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9f9e4ed-dcb0-49ef-bd37-908c7b631ae4">
+                    <propertyInstance
+                      Id="95b00e19-feb3-4896-9ddd-5aac1be288da"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b7b1153-fd89-4733-8133-119cb4213786">
+                    <propertyInstance
+                      Id="97c93d57-a20b-4b54-83aa-54c7bbab7a26"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e9217de-dcf5-4c5f-9ef1-79be9433c5ec">
+                    <propertyInstance
+                      Id="eeded48c-713d-47b3-865f-badaee98d1d3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe7c7d93-952f-4c4d-9da8-a31371e82ef5">
+                    <propertyInstance
+                      Id="8c0a308e-9f87-44d1-b33b-7224d081611a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf5b8e84-c129-4345-8a5e-36b48d87c7c0">
+                    <propertyInstance
+                      Id="5e8e5e24-cad7-4b66-b5b3-68f4706c3e3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ecfac0e-efb1-4cc0-b180-eeb76af477d2">
+                    <propertyInstance
+                      Id="25dafe59-fb0c-4b5e-9fbf-8d3833c8dd3d"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4d52bf28-de13-4a2e-866c-ba3caeabe3dc"
+            name="IsEmpty"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ccdfded2-611b-48b6-9d20-fa890ef1c87e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DIsEmpty"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a07e2d85-40f7-4fc1-a669-1ec2ac8cc1dd"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13af5987-372a-41af-9780-ea8121861b53">
+                    <propertyInstance
+                      Id="d8c33a25-3dde-41d9-a4cc-e16d03e6e948"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23ebd1a1-413d-4754-844c-23caf56e40bb">
+                    <propertyInstance
+                      Id="a2c88d38-01a0-4799-bd3f-e72075e2c081"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b843626-fb2d-4f19-ad15-2873b474232b">
+                    <propertyInstance
+                      Id="f8d81e20-6938-4058-9a1b-87529aabed16"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdad57c8-fee0-4f1d-8cd5-53f504a4f9e1">
+                    <propertyInstance
+                      Id="5c523efe-8a12-4b13-a303-9835cacbd952"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6489f2ca-e2e9-44e0-ae4e-d40dce354dc9">
+                    <propertyInstance
+                      Id="2145f108-270b-4431-b65d-1fc17f814231"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20698922-ec7c-4973-9e9b-bc5a99cf2f6e">
+                    <propertyInstance
+                      Id="3b08d1a1-4e6c-445e-887f-3eacbfb3837d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fe18c2e-4584-47ab-9688-71615625cbf6">
+                    <propertyInstance
+                      Id="d0631632-dac2-4033-96a5-da153289b529"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e993b22c-56f6-40c0-8094-473209f80d9e"
+            name="mySet"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4d89d767-96cc-4b3f-be43-e26f2170d468"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DmySet"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d034ffd-2d2e-49b5-b3bc-b9124ae7815f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="227e6f80-713d-4e75-aceb-a725828c41d1">
+                    <propertyInstance
+                      Id="33226967-1376-48ba-8a02-16aacfed422d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87e7cc85-7be0-4f83-ae67-97c4a513bc2a">
+                    <propertyInstance
+                      Id="98dcd446-1ca0-45dd-a6a6-dd0d2128e103"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d76193ef-4335-48b1-bf0e-2c67a39f7649">
+                    <propertyInstance
+                      Id="348c716f-4588-420b-b324-bf74c9585298"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9d1bc52-9d3c-467e-a56b-148eb5d6d67e">
+                    <propertyInstance
+                      Id="a6f073f6-0f18-4be0-90f9-cbef2c1f6db4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1afe25d9-0f8c-44b5-aafd-6b09dfbd20b0">
+                    <propertyInstance
+                      Id="56d979bb-5900-4797-a3e0-1de559f68be5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9ffdd27-451e-482d-bfc3-9ac6a55adb99"
+                LastKnownName="List&lt;Domino‎&gt;"
+                LastKnownLocation="Package1_1534.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8d4da863-1d0d-4bb0-834a-1156dce4e0bd"
+            name="Set"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c2ba0928-dc88-4db6-9ae6-1243bc14326b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="343386a3-5655-4ad8-af68-ded02ed407d8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ec30800-b643-4cbb-b555-ac59d02eca61">
+                    <propertyInstance
+                      Id="e39420db-25ee-42d4-ba70-f2d0f166e80a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4683529-f285-4427-b66a-5b1f42232bcd">
+                    <propertyInstance
+                      Id="e0f806fd-9dd4-4eaa-b1fc-3d2182d24fca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e93d2b2a-89cf-4947-8e18-cc5dd5a91072">
+                    <propertyInstance
+                      Id="e7e7db18-5451-4e75-b970-4f885f46588d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f162b90-6a93-40d6-b241-7bb5c681eab0">
+                    <propertyInstance
+                      Id="5c273a94-8682-4894-83b1-e07667255260"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3086b2f5-2137-4045-beee-ae7ffe2ac3c6">
+                    <propertyInstance
+                      Id="77a68493-9f52-4efc-a2c8-6c2c5b03c150"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b307a82-371d-4851-b00d-9b010cb21ab5">
+                    <propertyInstance
+                      Id="d6052f57-5a52-4b22-80d6-60a74cbd225c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="10000057-ed02-4642-be75-f7a202cccb87"
+                  name="numDomino"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1b7b655a-713b-4336-bec0-d7d8f84982c4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DnumDomino"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3524c5f8-446e-48ae-9337-19c9945e0f90"
+            name="Deal"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4ad38dfc-ab20-4eec-93ac-00c66c3320be"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DDeal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5f18157b-11bc-4967-9097-5b2d617261c6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7867de18-4bf1-4075-b720-66be0ce55941">
+                    <propertyInstance
+                      Id="6cad75c3-788c-4d8a-8606-5b7db0fe9eb8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7209e2a4-fe8c-48b1-898a-6b196744903e">
+                    <propertyInstance
+                      Id="76cd8b6f-2cbe-4484-b56a-2975778022e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ba51c75-3f31-43f7-9b0e-ffef8bd95df1">
+                    <propertyInstance
+                      Id="76c1c565-94af-4514-ab66-763d2dee44d7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea619e23-46e0-4892-a6ed-c1a79479a266">
+                    <propertyInstance
+                      Id="a807d2f0-b6d6-4b6b-8369-cde482c231ec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2c0420d-6a69-4d28-b5eb-81441068a333">
+                    <propertyInstance
+                      Id="12564a5b-9b73-4089-a4f1-c4c130ca7099"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8eaf8d48-43cf-42cd-9c9c-a18872fa0330">
+                    <propertyInstance
+                      Id="1f2de723-3147-476c-a542-9c7681803b29"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6595638c-ab33-4d74-bc10-ea691e00b75a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7ab94ea8-a8a0-4417-9fb8-ba8667c8d7d9"
+            name="Shuffle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9db8eeac-4a14-4259-a99b-89feeccefee3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DShuffle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7e99802-3d36-4e75-bbea-d198fd90e069"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36f0d1d2-a69b-4a49-8af1-10de05d087b0">
+                    <propertyInstance
+                      Id="b91195e1-d114-446b-9748-4caca5cb9f34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dd05764-511e-41ea-9a57-4fc531c014cc">
+                    <propertyInstance
+                      Id="78dfac32-1aee-4849-9b0b-a5985a222199"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f09d288-4047-475b-b023-f05e472ff276">
+                    <propertyInstance
+                      Id="8d956749-cc81-47f2-8adf-1a307a8f25b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0a78093-6e5b-4dd0-b9f4-858e45709e27">
+                    <propertyInstance
+                      Id="cee3f853-58df-4aa6-a7b2-ce1841b13552"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87eb1e6c-6dab-4652-9b51-a6f644c9c767">
+                    <propertyInstance
+                      Id="c00eda84-56a9-4b86-a629-7a0dd9df613d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11de785f-55f5-4436-a42b-494ef19c9a72">
+                    <propertyInstance
+                      Id="a0d74053-5e37-4553-9ad8-4247bedeafc9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9a7c7480-eb48-4270-8c4b-57f6826fdcf3"
+            name="ToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d82b690-aba4-4921-ac0e-7f7f9c665f44"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3DToString"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="805b4741-3ce6-4364-8662-9085ba84c203"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1839e48c-8627-47d2-870d-3e3b4d902461">
+                    <propertyInstance
+                      Id="bbbd0934-68bb-4958-8377-a19865459601"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faf4f40b-e2af-4691-9846-e5f01d7ae727">
+                    <propertyInstance
+                      Id="471d0c59-297d-4f17-bc78-c2269de07231"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6f19aff-e2b0-4c91-b833-b1cc7851f6d3">
+                    <propertyInstance
+                      Id="19e8e6ab-b667-4d95-9c32-ca795cf548cc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a00af0-a92b-4468-89d3-1a5f43a3325e">
+                    <propertyInstance
+                      Id="2e1f0937-1453-416a-be7d-d8e023314f1f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c511d65-0c1f-4e5d-b1a9-4fa3b3b744da">
+                    <propertyInstance
+                      Id="d45e56f8-6d5d-4a2b-9ab4-2c536604cdf5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e672b882-6601-4130-88ba-a5a1b1b050e5">
+                    <propertyInstance
+                      Id="c16457ba-38f7-4626-9ad5-262b5be47fe0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="39de3c94-7e48-4307-bbde-90356865402f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="172b0042-745f-45b4-b065-be4b386d44b6"
+            name="Set"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="abdf3c43-f7b3-409d-b556-b7e66d7fdce6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30b2e02b-6835-428c-8144-d6869175e8d6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e476a19b-ea8e-471d-9b4e-ae391395e212">
+                    <propertyInstance
+                      Id="f72fcfb4-4ccf-49b6-a103-660f614cf4d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a1d3810-d730-406d-bb8c-d07d978a9437">
+                    <propertyInstance
+                      Id="2e51ecd1-ac33-4aa2-826d-db34cf2ae21f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ad764f8-7d2c-4b12-8d53-65803a8356a5">
+                    <propertyInstance
+                      Id="7ca3877f-a1cb-4396-8e2a-0dd4ec49f1b5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d87b368-06b8-4b78-9fec-a46554b404f6">
+                    <propertyInstance
+                      Id="13e58e6c-0147-4e68-aabe-77116bcb3ae9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34e968a8-4869-4c2a-aa8f-1ecfc0244d46">
+                    <propertyInstance
+                      Id="b16262eb-a17d-4cbf-8a5e-770c6184cb9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a82015d7-5eae-4df7-92f0-f66997e5e409">
+                    <propertyInstance
+                      Id="18fe9d58-1c22-4f61-aeb8-4c914cbe893d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0cb694e2-2aaa-4a71-aa54-4ab313ca2227"
+        name="Hand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="86f44c05-c7bc-4970-b67f-dbcf76161d26"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="31af37c5-f4d0-4081-9de5-3b024b772b5b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f9623a4-7168-4c82-b8f8-5e506e3a010c">
+                <propertyInstance
+                  Id="60bad864-0a09-422e-908a-2252dc85fd70"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8436f8c0-9764-495d-a571-0d7387fdb60a">
+                <propertyInstance
+                  Id="fb7e9d1f-7341-4c13-a34d-0cd5809c58ed"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82299eac-26bb-43cc-bd44-128e8a36df3a">
+                <propertyInstance
+                  Id="f91d058b-8d54-475b-a798-f1c92127417e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1151d5e8-c2c4-43cc-a722-fe175826a628">
+                <propertyInstance
+                  Id="b2440274-44bd-4180-924b-058227f76f90"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bedf6474-14e9-4c88-a621-b87ca0cc2427">
+                <propertyInstance
+                  Id="aa825ab6-d0fd-4006-a329-fef3aed4ff1d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="fdc0985e-5da4-4784-9bd3-cfca3ee22ce9"
+            name="Count"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c21fbc62-dd24-475d-8dc8-fc097e4289ff"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3DCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="057d152f-63ea-4111-8fe7-a0c7857bb0ad"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa058848-9928-40e3-8e26-92672e09728f">
+                    <propertyInstance
+                      Id="b9116829-854e-40cc-9aca-706e03b5753a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d497f62b-953e-495f-a828-7841461ff1aa">
+                    <propertyInstance
+                      Id="09fb1ba6-6133-437f-b7e2-03a4aadab53b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c898da72-fef8-4e4b-89ee-4f5c5569cab6">
+                    <propertyInstance
+                      Id="45b665ed-f98e-47f3-a436-098c6c6ae968"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9da39729-8e8d-460d-8c41-d31ce484ae67">
+                    <propertyInstance
+                      Id="ee07cf1a-aa4f-4bff-8b88-916d557a4570"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b23561a-29bf-4558-9b26-dde7d1b438d6">
+                    <propertyInstance
+                      Id="42a70fcb-33d3-4d8b-bfc7-c1be8c3ea09e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1847f5b3-019f-49e4-8e32-94aa2d6a1713">
+                    <propertyInstance
+                      Id="f9d31761-bc9f-4d12-a8b3-a2452c0a66aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7e7e84-b268-4d32-ac5c-fb67a9a4d933">
+                    <propertyInstance
+                      Id="48dd769a-e8ae-4588-8d1b-2badfd7327da"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="830c97db-c578-4ee6-b13e-3312449f851b"
+            name="IsEmpty"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="83ad5915-9e1d-47a9-9779-779135fa7a40"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3DIsEmpty"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d786c9bd-05f3-4426-ad40-e1e0f5cbfa1c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0797989a-c75b-4021-82aa-d98da9b9d0c6">
+                    <propertyInstance
+                      Id="6c2796d5-ef56-4eb7-a8fc-9ca8cda8b6f1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebb1d344-c537-4217-a183-d499847bf3a7">
+                    <propertyInstance
+                      Id="20098d41-7140-4ba7-b8bb-1112ad078a16"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e81f89d7-aa1d-41aa-9962-44904ae52144">
+                    <propertyInstance
+                      Id="cf5a3caa-80ee-4e30-bbb4-b3f665361b79"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e0559ea-a8b4-4a31-9fe0-f55b7194d579">
+                    <propertyInstance
+                      Id="f2f0becd-8e18-46b4-a7f4-dab9c010ae70"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73deea68-b253-4fc8-a274-d9aa4ffd263e">
+                    <propertyInstance
+                      Id="dddac5a8-62fd-4235-a98d-c047f6f84c87"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc2a4b85-49da-4359-b0a0-9201f76b48f7">
+                    <propertyInstance
+                      Id="82d11d2c-3fbc-498b-8f61-cf963cee838d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e631e98-f941-4664-9d5a-0a505f928aab">
+                    <propertyInstance
+                      Id="2029e7d6-12be-414c-85a9-9420a487f52d"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="16f353be-8035-4b38-863a-ab86544c3f57"
+            name="Score"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5111fe7e-a7c6-4edc-bd70-61b783fd79af"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3DScore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e71e1572-d298-4791-ab3f-b1662aba06a8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2905ca57-b18c-4702-99f7-b4215be1466c">
+                    <propertyInstance
+                      Id="8cb97647-06cf-4a5e-8fa6-02e91896b06a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4237ebb-8a42-4362-b7b2-67cdd911a2a3">
+                    <propertyInstance
+                      Id="0edb1f32-d846-4d76-b545-3deba074c8b1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e80d1163-5d73-4f0e-9ef7-0275a1c312a7">
+                    <propertyInstance
+                      Id="91e979d3-19b5-4353-93bb-7a45127af980"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21d5fdf6-d7cf-4787-9da0-9bc4029d9740">
+                    <propertyInstance
+                      Id="432dbada-e1ac-4434-aaf3-c66c0f54100c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fd587c5-cd9d-4309-aaea-3e4ee867648f">
+                    <propertyInstance
+                      Id="9b339903-6455-4e50-9310-78b52099e667"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="253377ae-8cf8-40fb-a711-a0643979d043">
+                    <propertyInstance
+                      Id="029f32ce-2a07-4781-9033-d98e66a00935"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a7a6395-3120-44cb-88be-48a47288e59e">
+                    <propertyInstance
+                      Id="67340ccc-e65d-4481-bc21-bcf9a2c7fe08"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="71a9d8ed-570c-4dd6-a1f0-af846d569bda"
+            name="myHand"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3a7d99d8-9cf9-46fb-a5a4-b6c35388f025"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3DmyHand"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5ca4d953-03d9-4564-b06e-c054e044f987"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f327049d-b246-4fea-9d1b-e69ff3592a15">
+                    <propertyInstance
+                      Id="667ce2a9-6242-4eeb-ae93-a9971622a1d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="991f7456-b5cd-4219-99ed-4b6ac26d7708">
+                    <propertyInstance
+                      Id="570cba21-2a0a-4b76-ac55-f489c5b7f6dc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e04b264a-5f08-4cf9-941f-8ba397cdb531">
+                    <propertyInstance
+                      Id="4f99f41f-5fcb-401e-8a78-6117ee9da09c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10fe9aba-3475-4a3d-8604-dfbcab36cbb2">
+                    <propertyInstance
+                      Id="44f3689e-9bc7-4365-ad27-027884847a12"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9df7160-c019-42be-8f32-de58cd170347">
+                    <propertyInstance
+                      Id="f768dcd8-15a2-4edf-9ba7-f9b9a87a172c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9ffdd27-451e-482d-bfc3-9ac6a55adb99"
+                LastKnownName="List&lt;Domino‎&gt;"
+                LastKnownLocation="Package1_1534.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f2c17cee-0906-4ecb-ae0e-f5a23d6728cf"
+            name="Hand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e6cec02f-2eac-4f76-a605-5957ba5915cf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0dba34e3-7ccc-4ea9-b574-aa9534d7b985"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85f7c5c0-76d8-42c6-97df-3b18c9822a08">
+                    <propertyInstance
+                      Id="98724d09-15d5-4c9e-962b-fa79ef962288"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f210a48b-ed16-4c46-b5d8-bdbc723addca">
+                    <propertyInstance
+                      Id="02f5e1b9-a3b0-486c-80a2-293bfc2bf751"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c21420b4-a295-4601-91c6-071181537562">
+                    <propertyInstance
+                      Id="8676cc04-f588-438c-85c1-5948b19241a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="079b23a7-2c60-4249-9387-43e44371f081">
+                    <propertyInstance
+                      Id="c84ff6c8-7fef-4ba7-ba4e-76522055b4b2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ae30e48-4472-411f-9aa0-1cd9ec077407">
+                    <propertyInstance
+                      Id="1ba42312-f3f8-4697-a7e3-e7830d6bb708"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4dc932b-77dc-4240-ae9b-bc8faa98915d">
+                    <propertyInstance
+                      Id="376aebd9-c638-49ed-bbc3-8a50a143716c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1851fd2b-1230-4749-b396-e06d76c2c0b1"
+                  name="s"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2672fbef-63ee-4d5e-bd33-74272851c574"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ds"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d6987b0e-aa86-49f7-9ead-7235a7cdc013"
+                      LastKnownName="Set"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb168c8a-c783-4cba-8419-3d2803159758"
+                  name="numDominos"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="95c9083b-5e4c-468d-92c7-2aa2f55b55b3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DnumDominos"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3f3f7081-deba-426a-a60b-9a5cc071f806"
+            name="Add"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b8c9f210-3fa4-4306-ba34-6e071abeed22"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dbf79e60-a6c2-4573-9a65-75b5bf8c6296"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79119fd9-08cf-4ecc-bd86-e9c2a910b548">
+                    <propertyInstance
+                      Id="ffd7d2df-de5e-4db8-92f0-514459622a1a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78c10437-e5bb-4f7e-9f75-f37a8b9b88ea">
+                    <propertyInstance
+                      Id="5c31486e-ade1-402c-91dc-2250ccbddad7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f63ccc2-11e6-405f-8a5f-ac07a2311ad2">
+                    <propertyInstance
+                      Id="05d837a2-7b19-4c8d-bbc2-aa7e03b6e690"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb9d9683-470c-4cc3-95d4-7073a107f067">
+                    <propertyInstance
+                      Id="4ef0c860-43e8-46e1-8281-d35f3ec510cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="012c5928-066b-4d03-8b80-234d835a37da">
+                    <propertyInstance
+                      Id="8136d191-9450-4123-b93a-721c5b0e1856"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b2a43c1-73b8-4ce4-8f0c-fccff1890bd0">
+                    <propertyInstance
+                      Id="c6ed128b-c0bc-4049-a444-725b4abd6b5b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1f67f71b-55e1-4658-bf75-5b1c2da92845"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f1a72773-c9da-4d6b-83a1-0c3666b7ccd0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e60d0abe-e8bb-4c31-b15e-4341ff19b56d"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="70a308b3-11db-4a50-bb37-719bb107e91e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="014b196f-f438-413d-98ff-bd494159955f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ce1eef3-d56b-4cd5-a318-50f5426d01cf">
+                    <propertyInstance
+                      Id="1504f617-ab39-4a7a-a387-42303cdcf431"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a70a5223-9a84-4364-90d1-973b20da575c">
+                    <propertyInstance
+                      Id="b4f57cff-fd48-4282-9ed0-b082f188db1f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34d1e985-f02f-4622-b2a4-9cdf2351dc3c">
+                    <propertyInstance
+                      Id="d88072af-85cd-41ca-b003-74c009de1d03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="016ba0cc-9a35-4e51-8148-405f700dc53c">
+                    <propertyInstance
+                      Id="4e9466ab-45b2-4a94-a792-93d9c5f4eae3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5228225c-153b-4017-9597-410f1468144d">
+                    <propertyInstance
+                      Id="a6772847-3a22-4c96-b020-1c72cf9b2069"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49d18846-fdeb-4ed6-99d8-dcaa0da76c05">
+                    <propertyInstance
+                      Id="2264399b-939c-45c6-b8e0-c9a22eb5a2da"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9138e68-7a54-48a7-b900-357c5ee08233"
+                  name="s"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="94af1ec9-79f2-4836-bc76-eea1afd1455a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DDraw OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DSet)]) ParameterIdentifier%3Ds"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d6987b0e-aa86-49f7-9ead-7235a7cdc013"
+                      LastKnownName="Set"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dfd25bac-43f9-4759-b6b1-d7b13c3d3010"
+            name="GetDomino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="956ffc3d-5c31-4feb-a4a9-aa77a2ac15a2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DGetDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de2d35e4-da80-4936-929f-18e3464ed0e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c7adaf3-bccd-4501-bf6c-c39521adcd68">
+                    <propertyInstance
+                      Id="93e51b03-c7f4-40ba-89f6-95ffe1483b30"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aa5084c-f674-4aa0-9b1b-fc7b71e16b54">
+                    <propertyInstance
+                      Id="a784b664-af2c-457a-a2f1-414a41be5154"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2016f44-fcd1-43bf-ba10-7137f128cdb5">
+                    <propertyInstance
+                      Id="ae8370e8-08fb-4650-943a-e16d27792fd1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5a76664-1195-4e56-9182-c47b4b2a3339">
+                    <propertyInstance
+                      Id="c235c6ab-b509-4494-b4de-aded297ebeb9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="270408dc-c0ab-4ba6-a1b7-4ac7d8600d3c">
+                    <propertyInstance
+                      Id="01a61bc1-c102-471c-a682-c91f8a489313"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9546cd9-f66b-47dd-9ef0-6561e6cbfa38">
+                    <propertyInstance
+                      Id="5712667f-ecbb-477f-b15d-492fe6fb656f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="31a93d98-3606-4032-ba5a-0df9a04b245c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5e87e8e0-ad09-44e1-bf95-73450d193c7f"
+                  name="pipValue"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fc91a588-d2c0-4357-9590-7ac320999834"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DGetDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DpipValue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="37fcda58-746e-4cb4-9be8-fab3bfe1caab"
+            name="GetDoubleDomino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e083e587-3fea-40d8-b7aa-4d469b28a38f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DGetDoubleDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="afb9d5d3-8607-46e9-806f-770c78c1ae2c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06972703-740f-4919-8213-d1c4f0979bc4">
+                    <propertyInstance
+                      Id="5aa81915-2dc1-4014-9807-1902f10d13f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e795681d-835e-4d65-945c-b78fc5342f17">
+                    <propertyInstance
+                      Id="6a63e38c-3c70-448d-b9a4-843a1c339836"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="491ffd3d-0078-4dc8-a07d-6e626cdf7e65">
+                    <propertyInstance
+                      Id="a1e18596-c6df-43ae-9e46-0f3aca988441"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fe7bca7-b807-482c-90ab-a083e2499c6c">
+                    <propertyInstance
+                      Id="f689c5a2-1e70-4f76-ba6c-dde019c96358"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8403117e-2d3d-49b9-b74e-7e5f5d4f875b">
+                    <propertyInstance
+                      Id="1d456296-46c4-4bd2-a86b-1a7e7e3fd04a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67c2be1e-4e8f-4d61-89b1-d7cbb5593dda">
+                    <propertyInstance
+                      Id="509a6082-310e-4de5-90ee-f6f897f5c102"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d39a94ee-c3ea-4ed9-a20a-6abebe242852"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33d8b24c-742b-43c8-91c7-9ce470df992f"
+                  name="pipValue"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="28a9c38d-6847-4d70-add6-f35803e640eb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DGetDoubleDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DpipValue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2f6c5de1-8afb-4362-b0d6-42f4c5eb88f4"
+            name="HasDomino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d5115f2a-4955-417a-b4b1-4b411cd4d945"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DHasDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c72499c9-5e51-4c70-bf63-0e95dab13609"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f9bdfc6-ce19-46a2-8e92-4ba7cd3d821d">
+                    <propertyInstance
+                      Id="bba19235-c8d8-48af-98d7-63cd0af95792"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb048eaf-d9c8-4879-b7fe-b983a667021a">
+                    <propertyInstance
+                      Id="67f6f5b7-1d11-4033-8761-31d632c01678"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14d98d92-02ca-4cc1-a627-e81176dea392">
+                    <propertyInstance
+                      Id="c6099467-a654-4a7e-be02-fc8de607739e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5078ae2-8fe7-4d20-b7dd-ae8f90fdfa17">
+                    <propertyInstance
+                      Id="b2b93f82-330b-43bb-a374-85f6b9680116"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1543b46-cc29-43a5-a8d0-d59e14f2c64b">
+                    <propertyInstance
+                      Id="803bb506-7d6d-40be-8511-69660762f3b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38a11319-dd49-4295-8363-72278999fb84">
+                    <propertyInstance
+                      Id="52435362-987d-469c-a774-3c5a2c08edbc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4c301e87-e7fa-422f-ba73-87fec66c9752"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ddfdbc4-4e16-42f8-9a8c-f90be8b02b4a"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a4c91a15-b95b-4f6b-9f40-f1564b80d366"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DHasDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6f6dd6b2-5fbb-466b-bd04-fc4734e764ed"
+            name="HasDoubleDomino"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1637e54c-2f55-4860-97bc-be776a88893f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DHasDoubleDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c196ee60-c7c9-4ccf-8c30-8ec52eaea10b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb132e11-4b65-4768-b324-65a8e12d0440">
+                    <propertyInstance
+                      Id="1111c1c0-ae4e-4a5f-af3c-8dae9d26d4b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fcc604f-b27a-4838-ad5c-6970523b3d78">
+                    <propertyInstance
+                      Id="cf7c985f-e1a8-4256-a5b7-3292c4a7aab9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04c61044-dc57-4ec2-8861-b5e52cf2dd3d">
+                    <propertyInstance
+                      Id="b3ee6af9-068a-4638-a837-ea59267aa7fe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d7fe078-7bc9-445d-8998-037080ce03dd">
+                    <propertyInstance
+                      Id="33411838-a5e9-46eb-9014-d5073b2e841b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0794eaa9-1b46-43e9-ab29-cbfde04feadd">
+                    <propertyInstance
+                      Id="dfadceb2-a9bf-4f1d-9528-29722db86a78"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2188b85-7fab-46ae-a453-061000008960">
+                    <propertyInstance
+                      Id="3fb1ce61-2ba2-43f9-afb3-95c03d4e75f4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="718d165e-2d4c-4251-b8a2-5d0a49f9e18a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e21f2211-9a98-4fce-b7dd-f6e5944b5d0a"
+                  name="pipValue"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7e1c70c1-9b50-4dd7-b602-0bed6017e667"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DHasDoubleDomino OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DpipValue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d9dbd46-d27a-4de9-9960-73ba687c6f87"
+            name="IndexOf"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="330df367-eaff-4eac-b62f-24e5675a8498"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DIndexOf OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd2c2ad2-8ea6-4791-a1a0-700292b977e7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca063c8e-e678-41ed-b5cf-8741974bafc8">
+                    <propertyInstance
+                      Id="56abb120-f3fa-4504-b063-2bfb02e72298"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d87b753-be8f-4e71-840e-c34965ca015d">
+                    <propertyInstance
+                      Id="d71c0525-6036-44e6-a324-87220c0a0752"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c6c4e48-6ec9-4bfe-9943-c8d1410c51d6">
+                    <propertyInstance
+                      Id="b838304b-3b99-4a97-9dc6-6c01dabc8eee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e928b0ea-391e-40c4-95c7-b5c1ea3b4b58">
+                    <propertyInstance
+                      Id="cbf1878f-9a82-40e8-bcc7-3843de902f55"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eb063a7-63a7-481f-bf9f-2fd79eb1705f">
+                    <propertyInstance
+                      Id="f90c39bc-facf-4f21-abb0-b3d3b61ef4c8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df977d7c-4ea5-43ce-abf6-f046d4ef0574">
+                    <propertyInstance
+                      Id="500d3d33-2302-4395-a064-4c79d3d716f8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5bc7b5a4-8200-49ce-a74b-ffe69ba8b39f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d0f0dc44-7ac3-4d50-b1a7-57b6df15452d"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1ba9352d-d32d-4e94-aa10-03cf37ba3d4c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DIndexOf OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DDomino)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ef4d67da-e909-4904-8535-acd603f8cffe"
+            name="Hand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0c228027-4245-462e-bb3e-8738e4048f33"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1b7b04d3-a702-4a4e-a13a-b8f10057d79b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6e1d68c-8d09-4c8f-b700-fadea8da88a7">
+                    <propertyInstance
+                      Id="6a6be5af-e450-424f-9c2a-9d534f932808"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cb8d99b-7d9d-4453-b6ac-fb41aeabba2d">
+                    <propertyInstance
+                      Id="dd8861cc-f55e-4545-b4ed-928acf4b4398"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9423fcd8-07b5-4864-8131-8bb230275726">
+                    <propertyInstance
+                      Id="8b4d2347-14e1-4d28-a9c6-4a5f8c660e40"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac4527de-d0a6-4b75-ba50-ab12ab7c0e0b">
+                    <propertyInstance
+                      Id="43396669-f853-46cf-aa45-39873f9911f3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9c7737e-3dc1-408a-bd31-ae189769159b">
+                    <propertyInstance
+                      Id="53acb368-2428-4510-9cb7-d281210b44f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0773df24-4a27-4cde-8ad7-14f860b08f01">
+                    <propertyInstance
+                      Id="c6e8e0f6-36bd-4921-b454-6e64148c2aff"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="96154291-aaaf-4385-adbb-be3fad004515"
+            name="ToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3558ea21-fafa-45e8-a196-edd63cd13872"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3DToString"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6fa503cf-3fa9-4d38-a256-6471522bb0dc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8905303-185f-4f7a-bd6d-725d7bb04851">
+                    <propertyInstance
+                      Id="1d30b95d-6e92-47a6-8238-54c92b700698"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56280853-695f-4dda-8f6a-4d7e4cf67435">
+                    <propertyInstance
+                      Id="2ac2d7cd-a7f9-46d9-b7f4-eba6f722b042"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65df92c3-17b4-4961-ae63-934886b4c03f">
+                    <propertyInstance
+                      Id="f78e5be5-80a1-4fa9-a12f-0d7cd9a8baa2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5371b3a7-6996-441b-b9fb-2975ee1c22a1">
+                    <propertyInstance
+                      Id="d3e78fa8-fc76-43ad-953e-c4241fd2aa13"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac7eb757-bc70-436b-91d4-b6aea87ab4ed">
+                    <propertyInstance
+                      Id="885f916e-5a1c-4f46-8279-a97e41966227"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f369597-4320-40f7-933d-8485f8a7fcb3">
+                    <propertyInstance
+                      Id="50dc1f1d-ebca-433f-991d-b8cd74dedeb8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64bc0db0-9a26-4c4f-965c-cf44e1d5537a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d0c38c04-4cdd-4227-ae6d-8c6a96d3ddaf"
+            name="this"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6742f6c7-4c68-4f96-945b-87658bd33682"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DItem OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b21604f7-ca07-4518-8f8c-c385114de97e"
+                name="indexer"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb790e23-f2ef-46e9-8d19-b90eafbb690f">
+                    <propertyInstance
+                      Id="9e3c153c-fd08-46a1-b07f-b6949e845d7c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0161f94c-fe15-43a8-8fdf-cd2863c303a0">
+                    <propertyInstance
+                      Id="60ffc949-82dc-4073-a45c-f728ad7e8a5a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb0226b9-2979-4b51-97c6-08ca74fdbe5b">
+                    <propertyInstance
+                      Id="d74ca4a8-5af1-4f2f-aed5-55022df390dc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a297218-0667-4e35-a633-baf6f27445d8">
+                    <propertyInstance
+                      Id="fe6ea307-10f8-4be7-ba04-6e864537064a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11c0ebe2-e6ac-4189-a299-90712b78bac9">
+                    <propertyInstance
+                      Id="987335b1-e5fe-45b0-a635-7e313b9ec6ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3095ab55-ead7-47b0-9080-e3e92383bf69">
+                    <propertyInstance
+                      Id="c1d14ff6-4934-4d4d-bcd6-4389cbf0f6f8"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="589a71fa-3a25-47cb-92fd-81423a34e225"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="93553eeb-4a78-4164-9cc3-39a82cbf6c09"
+                      LastKnownName="Domino"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7f15ac87-b7d9-4d99-8e01-241b71eefe63"
+                  name="i"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2c119028-ea91-4b61-9602-76d0561be555"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab4%2FMexicanTrainDominos%2FDominoClasses%2Fbin%2FDebug%2FDominoClasses.dll Namespace%3DDominoClasses Type%3DHand Member%3D(Name%3DItem OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Di"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

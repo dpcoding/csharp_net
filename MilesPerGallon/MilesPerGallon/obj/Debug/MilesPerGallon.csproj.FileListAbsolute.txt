@@ -1,0 +1,17 @@
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\MilesPerGallon\bin\Debug\MilesPerGallon.exe.config
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\MilesPerGallon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\MilesPerGallon\obj\Debug\MilesPerGallon.FrmMilesPerGallon.resources
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\MilesPerGallon\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\MilesPerGallon\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\bin\Debug\MilesPerGallon.exe.config
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\bin\Debug\MilesPerGallon.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\bin\Debug\MilesPerGallon.pdb
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\MilesPerGallon.FrmMilesPerGallon.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\MilesPerGallon.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\MilesPerGallon\obj\Debug\MilesPerGallon.pdb
+C:\Users\student\Desktop\MilesPerGallon\MilesPerGallon\bin\Debug\MilesPerGallon.exe.config
+C:\Users\student\Desktop\MilesPerGallon\MilesPerGallon\obj\Debug\MilesPerGallon.exe
+C:\Users\student\Desktop\MilesPerGallon\MilesPerGallon\obj\Debug\MilesPerGallon.pdb

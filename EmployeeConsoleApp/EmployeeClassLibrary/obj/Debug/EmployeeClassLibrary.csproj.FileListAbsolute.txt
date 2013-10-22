@@ -1,0 +1,5 @@
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.dll
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb

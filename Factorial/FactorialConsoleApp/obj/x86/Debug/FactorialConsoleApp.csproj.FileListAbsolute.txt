@@ -1,0 +1,14 @@
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialConsoleApp.exe
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialConsoleApp.pdb
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialClassLibrary.dll
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialClassLibrary.pdb
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\FactorialConsoleApp.exe
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\FactorialConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\FactorialConsoleApp.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\FactorialConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialConsoleApp.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\bin\Debug\FactorialClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialConsoleApp\obj\x86\Debug\FactorialConsoleApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,20 @@
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\bin\Debug\CashRegister.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\bin\Debug\CashRegister.pdb
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\CashRegister.FrmCashRegister.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\CashRegister.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\CashRegister.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\CashRegister\CashRegister\obj\x86\Debug\CashRegister.pdb
+C:\Users\student\Desktop\CashRegister(1)\CashRegister\CashRegister\obj\x86\Debug\CashRegister.exe
+C:\Users\student\Desktop\CashRegister(1)\CashRegister\CashRegister\obj\x86\Debug\CashRegister.pdb
+E:\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.exe
+E:\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.exe
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\bin\Debug\CashRegister.exe
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\bin\Debug\CashRegister.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.FrmCashRegister.resources
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\CashRegister\CashRegister\CashRegister\obj\x86\Debug\CashRegister.csproj.GenerateResource.Cache

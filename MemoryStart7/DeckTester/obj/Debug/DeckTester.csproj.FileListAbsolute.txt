@@ -1,0 +1,8 @@
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\obj\Debug\DeckTester.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\bin\Debug\DeckTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\bin\Debug\DeckTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\bin\Debug\DeckTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\obj\Debug\DeckTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\DeckTester\obj\Debug\DeckTester.pdb

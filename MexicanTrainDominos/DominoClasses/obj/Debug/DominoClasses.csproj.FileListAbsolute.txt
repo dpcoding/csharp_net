@@ -1,0 +1,4 @@
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoClasses\bin\Debug\DominoClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoClasses\bin\Debug\DominoClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoClasses\obj\Debug\DominoClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoClasses\obj\Debug\DominoClasses.pdb

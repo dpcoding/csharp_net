@@ -1,0 +1,10 @@
+E:\CS 233C#\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 2\TripConsoleApp\TripClassLibrary\bin\Debug\TripClassLibrary.dll
+E:\CS 233C#\Lab 2\TripConsoleApp\TripClassLibrary\bin\Debug\TripClassLibrary.pdb
+E:\CS 233C#\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\TripClassLibrary.dll
+E:\CS 233C#\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\TripClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripClassLibrary\bin\Debug\TripClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripClassLibrary\bin\Debug\TripClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\TripClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\TripClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripClassLibrary\obj\Debug\TripClassLibrary.pdb

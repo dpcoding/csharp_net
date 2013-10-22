@@ -1,0 +1,11 @@
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.TemperatureConversion.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\bin\Debug\TemperatureConversion.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\bin\Debug\TemperatureConversion.pdb
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\Lab 6\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.pdb
+C:\Users\student\Desktop\TemperatureConversion\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.exe
+C:\Users\student\Desktop\TemperatureConversion\TemperatureConversion\TemperatureConversion\obj\x86\Debug\TemperatureConversion.pdb

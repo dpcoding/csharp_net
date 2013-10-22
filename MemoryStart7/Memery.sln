@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTester", "CardTester\CardTester.csproj", "{3E886ADE-BE76-4AE8-A174-FC29237CA7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardClasses", "CardClasses\CardClasses.csproj", "{B474A415-2CAF-478A-A83D-A867B228C865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckTester", "DeckTester\DeckTester.csproj", "{F9997EF5-6B4F-408E-8A6F-534F440F9082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandTester", "HandTester\HandTester.csproj", "{B197BA3E-3958-415F-BF38-457D2B596C5A}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BlackJack", "BlackJack\BlackJack.modelproj", "{12EE0400-0BAB-4F88-AA75-F582702E6EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BJConsoleApp", "BJConsoleApp\BJConsoleApp.csproj", "{F6DB27D4-7295-4106-B1C6-D3FA7EBE1EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackjackGUI", "BlackjackGUI\BlackjackGUI.csproj", "{0015FA5F-22C6-4346-BB61-4ECF3E0FECD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E886ADE-BE76-4AE8-A174-FC29237CA7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E886ADE-BE76-4AE8-A174-FC29237CA7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E886ADE-BE76-4AE8-A174-FC29237CA7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E886ADE-BE76-4AE8-A174-FC29237CA7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B474A415-2CAF-478A-A83D-A867B228C865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B474A415-2CAF-478A-A83D-A867B228C865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B474A415-2CAF-478A-A83D-A867B228C865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B474A415-2CAF-478A-A83D-A867B228C865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9997EF5-6B4F-408E-8A6F-534F440F9082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9997EF5-6B4F-408E-8A6F-534F440F9082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9997EF5-6B4F-408E-8A6F-534F440F9082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9997EF5-6B4F-408E-8A6F-534F440F9082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B197BA3E-3958-415F-BF38-457D2B596C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B197BA3E-3958-415F-BF38-457D2B596C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B197BA3E-3958-415F-BF38-457D2B596C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B197BA3E-3958-415F-BF38-457D2B596C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EE0400-0BAB-4F88-AA75-F582702E6EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EE0400-0BAB-4F88-AA75-F582702E6EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EE0400-0BAB-4F88-AA75-F582702E6EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EE0400-0BAB-4F88-AA75-F582702E6EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DB27D4-7295-4106-B1C6-D3FA7EBE1EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DB27D4-7295-4106-B1C6-D3FA7EBE1EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DB27D4-7295-4106-B1C6-D3FA7EBE1EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DB27D4-7295-4106-B1C6-D3FA7EBE1EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0015FA5F-22C6-4346-BB61-4ECF3E0FECD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0015FA5F-22C6-4346-BB61-4ECF3E0FECD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0015FA5F-22C6-4346-BB61-4ECF3E0FECD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0015FA5F-22C6-4346-BB61-4ECF3E0FECD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

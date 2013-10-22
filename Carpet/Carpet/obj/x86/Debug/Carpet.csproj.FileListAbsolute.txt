@@ -1,0 +1,15 @@
+C:\Users\C#User\Desktop\Labs 1\Carpet\Carpet\bin\Debug\Carpet.exe
+C:\Users\C#User\Desktop\Labs 1\Carpet\Carpet\bin\Debug\Carpet.pdb
+C:\Users\C#User\Desktop\Labs 1\Carpet\Carpet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\C#User\Desktop\Labs 1\Carpet\Carpet\obj\x86\Debug\Carpet.exe
+C:\Users\C#User\Desktop\Labs 1\Carpet\Carpet\obj\x86\Debug\Carpet.pdb
+E:\CS 233C#\Labs 1\Carpet\Carpet\obj\x86\Debug\Carpet.exe
+E:\CS 233C#\Labs 1\Carpet\Carpet\obj\x86\Debug\Carpet.pdb
+E:\CS 233C#\Labs 1\Carpet\Carpet\bin\Debug\Carpet.exe
+E:\CS 233C#\Labs 1\Carpet\Carpet\bin\Debug\Carpet.pdb
+E:\CS 233C#\Labs 1\Carpet\Carpet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 1\Carpet\Carpet\obj\x86\Debug\Carpet.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 1\Carpet\Carpet\obj\x86\Debug\Carpet.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 1\Carpet\Carpet\bin\Debug\Carpet.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 1\Carpet\Carpet\bin\Debug\Carpet.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 1\Carpet\Carpet\obj\x86\Debug\Carpet.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\bin\Debug\HypotenuseCalculator.exe.config
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\bin\Debug\HypotenuseCalculator.exe
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\bin\Debug\HypotenuseCalculator.pdb
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\HypotenuseCalculator.FrmHypotenuseCalculator.resources
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\HypotenuseCalculator.exe
+C:\Users\Dylan\Documents\CS 133C#\Tutorials13To14\Tutorial13\TemplateApplication\HypotenuseCalculator\obj\Debug\HypotenuseCalculator.pdb
+E:\CS 133C#\Lab 6\HypotenuseCalculator\HypotenuseCalculator\bin\Debug\HypotenuseCalculator.exe.config
+E:\CS 133C#\Lab 6\HypotenuseCalculator\HypotenuseCalculator\obj\Debug\HypotenuseCalculator.exe
+E:\CS 133C#\Lab 6\HypotenuseCalculator\HypotenuseCalculator\obj\Debug\HypotenuseCalculator.pdb

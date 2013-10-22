@@ -1,0 +1,13 @@
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\bin\Debug\CustomerMaintenance.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\bin\Debug\CustomerMaintenance.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\bin\Debug\CustomerMaintenance.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\bin\Debug\CustomerMaintenanceClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\bin\Debug\CustomerMaintenanceClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\WholesaleRetailCustomerMaintenance.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\WholesaleRetailCustomerMaintenance.frmAddRetail.resources
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\WholesaleRetailCustomerMaintenance.frmAddWholesale.resources
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\WholesaleRetailCustomerMaintenance.frmCustomers.resources
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\CustomerMaintenance.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\WholesaleRetailCustomerMaintenance.csproj.GenerateResource.Cache
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\CustomerMaintenance.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\CustomerMaintenanceStart6\WholesaleRetailCustomerMaintenance\obj\Debug\CustomerMaintenance.pdb

@@ -1,0 +1,17 @@
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardClasses\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardClasses\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardClasses\obj\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardClasses\obj\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardClasses\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardClasses\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardClasses\obj\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardClasses\obj\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\Memery\CardClasses\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab4\Memery\CardClasses\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\Memery\CardClasses\obj\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab4\Memery\CardClasses\obj\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\Memery\CardClasses\obj\Debug\CardClasses.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardClasses\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardClasses\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardClasses\obj\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardClasses\obj\Debug\CardClasses.pdb

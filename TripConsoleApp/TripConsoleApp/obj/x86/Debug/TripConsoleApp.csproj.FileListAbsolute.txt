@@ -1,0 +1,14 @@
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripConsoleApp.exe
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripConsoleApp.pdb
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripClassLibrary.dll
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripClassLibrary.pdb
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\TripConsoleApp.exe
+E:\CS 233C#\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\TripConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\TripConsoleApp.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\TripConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripConsoleApp.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\bin\Debug\TripClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\TripConsoleApp\TripConsoleApp\obj\x86\Debug\TripConsoleApp.csprojResolveAssemblyReference.cache

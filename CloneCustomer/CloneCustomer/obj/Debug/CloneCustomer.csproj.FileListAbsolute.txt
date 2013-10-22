@@ -1,0 +1,10 @@
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\bin\Debug\CloneCustomer.exe
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\bin\Debug\CloneCustomer.pdb
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.Form1.resources
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.csproj.GenerateResource.Cache
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.exe
+C:\Users\Dylan\Documents\CS233N\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.pdb
+C:\Users\Dylan\Documents\CS233N\ForGit\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.exe
+C:\Users\Dylan\Documents\CS233N\ForGit\Lab8\lab8Part1Start\CloneCustomerStart\CloneCustomer\obj\Debug\CloneCustomer.pdb

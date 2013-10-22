@@ -1,0 +1,25 @@
+c:\users\dylan\documents\visual studio 2012\Projects\Memery\CardTester\bin\Debug\CardTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\bin\Debug\CardTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\bin\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\bin\Debug\CardTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\obj\Debug\CardTester.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\obj\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab2\Memery\CardTester\obj\Debug\CardTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\bin\Debug\CardTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\obj\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\obj\Debug\CardTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\bin\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\bin\Debug\CardTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab3\Memery\CardTester\obj\Debug\CardTester.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\bin\Debug\CardTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\bin\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\bin\Debug\CardTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\bin\Debug\CardClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\bin\Debug\CardClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\obj\Debug\CardTester.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\obj\Debug\CardTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab6\MemeryStart6\CardTester\obj\Debug\CardTester.pdb

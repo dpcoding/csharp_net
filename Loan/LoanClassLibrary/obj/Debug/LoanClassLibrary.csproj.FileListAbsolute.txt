@@ -1,0 +1,9 @@
+E:\CS 233C#\Lab 4\Chapter06\Loan\LoanClassLibrary\bin\Debug\LoanClassLibrary.dll
+E:\CS 233C#\Lab 4\Chapter06\Loan\LoanClassLibrary\bin\Debug\LoanClassLibrary.pdb
+E:\CS 233C#\Lab 4\Chapter06\Loan\LoanClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 4\Chapter06\Loan\LoanClassLibrary\obj\Debug\LoanClassLibrary.dll
+E:\CS 233C#\Lab 4\Chapter06\Loan\LoanClassLibrary\obj\Debug\LoanClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Loan\LoanClassLibrary\bin\Debug\LoanClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Loan\LoanClassLibrary\bin\Debug\LoanClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Loan\LoanClassLibrary\obj\Debug\LoanClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Loan\LoanClassLibrary\obj\Debug\LoanClassLibrary.pdb

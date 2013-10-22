@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e140ceef-0124-4ca5-b13e-3f37ab44dc50"
+  name="CardTester"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e1593b4a-6efc-4eaf-b975-dac8d0c3346d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DCardTester"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="14b73a5b-9f9d-4827-9689-f7048091ecf1"
+        name="CardTester"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5d304c9d-f196-467a-af77-abe6b74845c7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FCardTester%2Fbin%2FDebug%2FCardTester.exe Namespace%3DCardTester Type%3DCardTester"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c839759f-1520-42a5-92df-c9724d2bab25"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d430dd2c-e13d-4c2a-b889-e6473d49e334">
+                <propertyInstance
+                  Id="9d67aa9c-1b04-491c-b541-1a7fafb148f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="33a2bb10-f60d-49fc-8282-ad27cc027d4d">
+                <propertyInstance
+                  Id="06cc80aa-5514-439d-800e-79b7375c2c5d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26d59f16-955c-4152-b5b3-00668c045760">
+                <propertyInstance
+                  Id="0a0be0aa-9d77-41e5-84cb-52e1bd80cf15"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e86f01b-32b6-4624-ae52-1c5b8706a36c">
+                <propertyInstance
+                  Id="3bf37e30-417c-4d68-9c06-75e087eb6aa2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ee6d54f-452f-4902-abd7-108a222dd3e8">
+                <propertyInstance
+                  Id="15eb5a21-43b8-4ae4-ac04-3b74ee7becd4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="464c89db-7f3a-481b-85f9-504a6c17391d"
+            name="CardTester"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a293fd73-953c-462b-af16-ea27604cdde0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FCardTester%2Fbin%2FDebug%2FCardTester.exe Namespace%3DCardTester Type%3DCardTester Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="150b036a-2aa4-4074-8aac-decf38eabb22"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f674fdf-7072-488c-8edc-2351dce74bfa">
+                    <propertyInstance
+                      Id="82782cd6-adca-45b5-9c4c-317c2a3d81b7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f10d4891-dff1-462d-b66f-b615fa2fe0e9">
+                    <propertyInstance
+                      Id="060af9f6-1523-49f1-a241-9893f4a50e42"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4713cef-1cf4-4fb2-a08d-1fcfdf3ea20c">
+                    <propertyInstance
+                      Id="113b4dd1-1896-420f-82df-7e83e14cf334"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e0f27f6-41d7-4d32-b32a-899a71cbca9d">
+                    <propertyInstance
+                      Id="6ef49d58-4d82-46a5-8c75-cae3818175ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="362a7ffc-0e23-4ec7-b34c-46135aea2232">
+                    <propertyInstance
+                      Id="8af858e9-0233-447c-8894-bc1eec200207"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8713b1b-4e21-4281-8ffe-9424ae8fd042">
+                    <propertyInstance
+                      Id="0ad06e32-8e7b-481b-99f4-8c112d12883a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="696544df-797d-4993-960a-5a5044657f03"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6c191423-c582-42f2-8175-2ce50943d365"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FCardTester%2Fbin%2FDebug%2FCardTester.exe Namespace%3DCardTester Type%3DCardTester Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="812bb2b1-47e4-4ec2-b2f9-6b71bd0cd176"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c747aac-7621-45d0-8149-0af4d471dc40">
+                    <propertyInstance
+                      Id="a5c9affd-2252-4efb-8e01-858db0f88d1a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3f7b27f-7b19-417b-82ec-84722982518c">
+                    <propertyInstance
+                      Id="a2ecfa05-55fc-4c6f-97f3-9d92298372f7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="029086cf-558a-4193-853c-53aecf53872b">
+                    <propertyInstance
+                      Id="bb9e15fc-9fa1-445c-8e21-44cc205d953f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="662d1375-d4d8-478b-9d28-700cf1375f07">
+                    <propertyInstance
+                      Id="a06fe029-764e-47de-a85a-47aed1b5f1bd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad374a08-a821-4218-a938-bcd6416f49bd">
+                    <propertyInstance
+                      Id="038861ef-ebe7-49b3-a20e-3694d4fbaaf6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1850646-39a4-4258-8009-cd00b2e660fb">
+                    <propertyInstance
+                      Id="2281432a-4815-4929-a078-71e70d98233a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="524587eb-edcf-40ea-92ae-4adc577b170e"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="b75c9ed6-2bce-4955-b188-efca7c3869ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FCardTester%2Fbin%2FDebug%2FCardTester.exe Namespace%3DCardTester Type%3DCardTester Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0d979e50-b2a2-47da-94ee-eaed530c8d20"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="58142219-f1ec-4b54-882a-e1ffb2300560"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BlackJack.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

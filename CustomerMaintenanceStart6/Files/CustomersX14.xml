@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+    <Customer>
+        <Type>Retail</Type>
+        <FirstName>Charlies</FirstName>
+        <LastName>Hibba</LastName>
+        <Email>chahibba@yahoo.ccom</Email>
+        <HomePhone>(541) 334-5656</HomePhone>
+    </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>John</FirstName>
+        <LastName>Mendez</LastName>
+        <Email>jmendez@msystem.com</Email>
+        <Company>Mendez Systems</Company>
+    </Customer>
+    <Customer>
+        <Type>Retail</Type>
+        <FirstName>Joanne</FirstName>
+        <LastName>Smith</LastName>
+        <Email>jsmith@armaco.com</Email>
+        <HomePhone>(559) 555-1234</HomePhone>
+    </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>Erin</FirstName>
+        <LastName>Finch</LastName>
+        <Email>efinch@csuks.edu</Email>
+        <Company>CSUKS</Company>
+    </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>Bob</FirstName>
+        <LastName>Troutman</LastName>
+        <Email>bobtroutman@gmail.com</Email>
+        <Company>Bob Consulting</Company>
+    </Customer>
+    <Customer>
+        <Type>Wholesale</Type>
+        <FirstName>Jo</FirstName>
+        <LastName>Gogo</LastName>
+        <Email>gogo@yahoo.com</Email>
+        <Company>Goooo Yeah</Company>
+    </Customer>
+    <Customer>
+        <Type>Retail</Type>
+        <FirstName>Charlies</FirstName>
+        <LastName>McKenzie</LastName>
+        <Email>cmckenzie@yahoo.com</Email>
+        <HomePhone />
+    </Customer>
+</Customers>

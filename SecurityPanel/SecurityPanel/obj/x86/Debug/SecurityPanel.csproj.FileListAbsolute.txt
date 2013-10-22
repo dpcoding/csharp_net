@@ -1,0 +1,18 @@
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\bin\Debug\SecurityPanel.exe
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\bin\Debug\SecurityPanel.pdb
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.SecurityPanel.resources
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.Properties.Resources.resources
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.exe
+E:\CS 133C#\SimplyCSP\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.pdb
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.exe
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.pdb
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\bin\Debug\SecurityPanel.exe
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\bin\Debug\SecurityPanel.pdb
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.SecurityPanel.resources
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\SecurityPanel.Properties.Resources.resources
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\CS 133C#\Lab 5\SecurityPanel\SecurityPanel\obj\x86\Debug\GenerateResource.write.1.tlog

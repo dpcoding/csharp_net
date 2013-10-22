@@ -1,0 +1,9 @@
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\bin\Debug\EmployeeConsoleApp.exe
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\bin\Debug\EmployeeConsoleApp.pdb
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\bin\Debug\EmployeeClassLibrary.dll
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\bin\Debug\EmployeeClassLibrary.pdb
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\obj\x86\Debug\EmployeeConsoleApp.exe
+E:\CS 233C#\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\obj\x86\Debug\EmployeeConsoleApp.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\obj\x86\Debug\EmployeeConsoleApp.exe
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 2\EmployeeConsoleApp\EmployeeConsoleApp\obj\x86\Debug\EmployeeConsoleApp.pdb

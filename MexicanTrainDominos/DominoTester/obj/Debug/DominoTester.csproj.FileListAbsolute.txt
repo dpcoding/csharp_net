@@ -1,0 +1,9 @@
+C:\Users\Dylan\Documents\CS233N\Lab2\MexicanTrainDominos\DominoTester\bin\Debug\DominoTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\bin\Debug\DominoTester.exe.config
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\bin\Debug\DominoTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\bin\Debug\DominoTester.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\bin\Debug\DominoClasses.dll
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\bin\Debug\DominoClasses.pdb
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\obj\Debug\DominoTester.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\obj\Debug\DominoTester.exe
+C:\Users\Dylan\Documents\CS233N\Lab4\MexicanTrainDominos\DominoTester\obj\Debug\DominoTester.pdb

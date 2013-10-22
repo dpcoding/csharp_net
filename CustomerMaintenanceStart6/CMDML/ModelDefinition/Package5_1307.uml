@@ -1,0 +1,2814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="25ef2275-86d6-4206-946e-5a49cc691cae"
+  name="CustomerMaintenance"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="07ff5e75-dafc-4bb0-8260-92c83d2b0df8"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DCustomerMaintenance"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="83c23d5d-9f4d-4549-a23b-890074546c62"
+        name="frmAddCustomer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3fc4b18a-f5d8-4b15-83e1-6dcd7dfafabb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cb445720-aecd-4aa4-b492-bd9ed9cfd6a5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5af33f6-3940-4ea4-86ed-bb24efb763ec">
+                <propertyInstance
+                  Id="e6f6746c-6650-49d1-a53c-f11c536149c5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d7b8da6-cee2-4dd5-94d4-9d924db51162">
+                <propertyInstance
+                  Id="f5b7b3f4-7956-42c7-85d6-bce7451663a8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b260ccd-362e-40b3-93a8-58ebc515568d">
+                <propertyInstance
+                  Id="5cd18024-6360-4eb7-a9fa-c291466542b0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d03f9c2a-000e-4c0d-a2bd-9af19045f579">
+                <propertyInstance
+                  Id="9f588564-8d06-4da0-bbb0-04011781c28a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43d25730-1e57-480f-a185-d198a18860a2">
+                <propertyInstance
+                  Id="e61ebb4d-ee5a-4298-8320-806cc48390b5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="bb5f01ff-d79d-4f40-bd47-88784198f8a3"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fb7e29e9-5e14-4ce7-a892-e364d9cfb700"
+              LastKnownName="Form"
+              LastKnownLocation="Package8_1307.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="ab6e7ff1-17f6-4eb7-bfd6-babe73f40852"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="970e8123-e1ba-4dcc-b5a7-926d90a68a42"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="125e619d-84f4-4cc0-b3bb-99781c4a0238"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="012f91d4-b93f-43d8-85f8-50bdad9a71e3">
+                    <propertyInstance
+                      Id="f9058e7c-52ee-4cdf-9a5f-79b1c1b3710a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7319634-252e-47b2-bf69-69ef0c1ada8b">
+                    <propertyInstance
+                      Id="0d6f5e07-8359-4661-a749-93edb87f5610"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04897258-12a6-4276-bf4c-a54fb81dc765">
+                    <propertyInstance
+                      Id="345fdf6b-70c4-4f44-8778-7e98d0b39a36"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68e299f3-e998-4f87-9828-7bab05732557">
+                    <propertyInstance
+                      Id="5acb71d3-d52b-47a2-aa5b-b83942b7058b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="621cfb05-4134-49b9-908d-e5e041e461e4">
+                    <propertyInstance
+                      Id="2f31d5e5-e12e-4f88-b981-dc14c6c8bc82"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="aa40b0a2-7540-4e2e-a8d0-39db13c3a60e"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package6_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3791ab26-a8c0-4a70-85f4-c6c7815c9b43"
+            name="btnCancel"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="73a10353-fa37-4ee9-9666-48f28b9cd687"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DbtnCancel"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32871869-3e79-4f2b-86ac-5dd21ba822df"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f858bde-6702-4bbe-b31a-1cf65df4c7d1">
+                    <propertyInstance
+                      Id="3416e3f2-f051-4fa3-b944-e9ba397ea227"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcff8d1e-a4bc-441c-9ed0-305bceda0ee6">
+                    <propertyInstance
+                      Id="60972d36-b82d-4582-96c7-126c19a058e7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fab7a369-31a8-4d92-bc8a-ce895d852b89">
+                    <propertyInstance
+                      Id="8d656761-53bd-46b0-9984-b91f250ad448"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c3d6121-51e3-4544-90dd-b130db4f7c99">
+                    <propertyInstance
+                      Id="f4823524-de52-4310-9810-9ce649c3bfa6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="443ae2e9-2d8e-494c-bbf6-1381dff174ca">
+                    <propertyInstance
+                      Id="d47fa993-a290-4423-9292-06b5852bcf2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0303277a-cc54-42ab-acd7-7fb80b5dab8b"
+                LastKnownName="Button"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e973b5ec-9671-4414-93cf-5f34f70df124"
+            name="btnSave"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ead94ced-ae0b-4857-939a-fe9143ea62e1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DbtnSave"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce213f5d-cf11-4623-aff2-5d6bb94c3d41"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4b586d4-fd7f-4f60-a409-0817129ce783">
+                    <propertyInstance
+                      Id="2599540e-72d0-4173-a24c-adbf50e9cb7c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c98e2a0c-4dfc-46d6-9697-34da9d994650">
+                    <propertyInstance
+                      Id="07dda90a-1791-444f-ae75-2ed03903d02b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b9c069-6c7c-47dc-b27f-0bb769b7f610">
+                    <propertyInstance
+                      Id="ff61d9c6-d7a5-4896-b961-0fdf7a106cee"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0607789d-8352-4541-ab83-d8e3150efd2e">
+                    <propertyInstance
+                      Id="3fa8c309-9916-4c74-9de0-97878ab8e80f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f995191-3108-441e-b3ec-83ba0f2af885">
+                    <propertyInstance
+                      Id="8ae28403-fa62-4ab4-a675-e77f206a29b0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0303277a-cc54-42ab-acd7-7fb80b5dab8b"
+                LastKnownName="Button"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b7c8a847-956a-485b-9821-445ab4d59eab"
+            name="customer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e9c8dbf1-3e06-4e9d-b38d-9a461e28cf26"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3Dcustomer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06669593-6321-46cf-8634-2dd3f34d55c7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43fe0d74-0af5-4c8c-a061-c5aab28dde98">
+                    <propertyInstance
+                      Id="fcfbfba8-096e-4e38-8063-425d990be6ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dc3facd-4bb2-468e-bf6b-0f4016c7cc52">
+                    <propertyInstance
+                      Id="b146650e-1287-4322-948e-11df177b993e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6d3bc0a-0ab1-4e75-a645-7b9f02200732">
+                    <propertyInstance
+                      Id="26db1b93-7dd5-4ab6-a40e-0f02f80d81ae"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22e3e541-dad5-42c6-adb2-d0e66a8c772c">
+                    <propertyInstance
+                      Id="02ebcddd-4acf-44c4-93cf-d169d5032da3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a4ff165-bf1c-4c97-883f-f745ecaaba64">
+                    <propertyInstance
+                      Id="c5bc1796-c5f7-4ec4-9183-9117df380ae1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="125ad419-ac86-40cd-a6cf-c9f26da3e86f"
+                LastKnownName="Customer"
+                LastKnownLocation="Package_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0b84bfb3-fe06-4dad-8fb9-4970f7322a1c"
+            name="label2"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="759cca0c-fcf5-4146-8434-697fcf47b4ee"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3Dlabel2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e148da33-edf8-4580-a42b-be038340fa9f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b138af0-5c3b-4f59-bc8f-c6d62009bedc">
+                    <propertyInstance
+                      Id="f74b6efd-4e7c-46a3-b1c0-7b756e6dc05e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c691798f-d5fb-4ec7-8544-67f63264b04f">
+                    <propertyInstance
+                      Id="b776c530-ee69-4b8c-9ba0-0e35fdb16239"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49dea9af-3d79-4150-a011-622e1734a32d">
+                    <propertyInstance
+                      Id="d0897014-8127-409b-aad5-03b2a332378f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc447851-aea7-4bb9-842c-0c3cc2cf0c22">
+                    <propertyInstance
+                      Id="629978f4-457d-4bef-b10c-4a05248006ef"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c923978-5cd9-4b3c-b22b-95d5151e7573">
+                    <propertyInstance
+                      Id="4b6f8e2e-2a70-483e-abe1-a9ace0ac9134"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eadba0ee-e3a6-41b6-a22d-89fe4b702435"
+                LastKnownName="Label"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="412b33c6-28b3-41a2-9a80-4a508a53ec48"
+            name="label3"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="be294275-092f-4b5c-9e3b-e9cd3f41c00b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3Dlabel3"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="76e8d745-f2d4-4273-8f85-ab5ec04e4e28"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42d986d3-b340-405c-8934-311ab6190955">
+                    <propertyInstance
+                      Id="2a187a58-64a9-4560-a7c6-8daff2c591bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbf118f1-db75-48fc-a66a-eb94ad7e0889">
+                    <propertyInstance
+                      Id="5ddbb9f1-9009-4bbb-999d-4203dcd8230d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a28c298-b073-405c-9a90-1303bcfe814c">
+                    <propertyInstance
+                      Id="4463bf42-001d-4a75-b721-72ba602db90d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9820b976-b177-48ad-b910-c2b7e88ac13a">
+                    <propertyInstance
+                      Id="6fa80e34-b08d-489d-9c1e-23aebc7a4808"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82dcd42d-0705-4842-9910-8c3705d0d660">
+                    <propertyInstance
+                      Id="125f1508-e1c0-4f53-ae79-40f2e091d5c5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eadba0ee-e3a6-41b6-a22d-89fe4b702435"
+                LastKnownName="Label"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ec5c4f20-a86c-4b2f-9999-0b00c1b8d593"
+            name="label4"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6af179bf-802e-4f6d-be4e-bbdc4ec7418a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3Dlabel4"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17f7423b-a8d7-4f1a-b006-b05e248da8f8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01bfac51-505c-4945-93a2-e7373dea39c7">
+                    <propertyInstance
+                      Id="eab34c2a-951b-49da-9103-5f7d9e95eedd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0be348ea-e53e-4740-8206-745fb12ab0b9">
+                    <propertyInstance
+                      Id="80ddabfa-b0ec-4c88-9ebc-e57ab5735454"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d8915db-dbba-46f2-a612-6583f6c843eb">
+                    <propertyInstance
+                      Id="3551ebec-5434-49c5-83fc-5a2cb868275b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c96fbe15-1c72-42fe-af31-09845d3fa293">
+                    <propertyInstance
+                      Id="d8ebf5ba-9b0a-492b-90e1-c95d2236b3f4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce7f7faa-14dd-4f25-90a9-2d881ab58812">
+                    <propertyInstance
+                      Id="69c30368-a9a2-4ba9-a0db-2408578c3af3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eadba0ee-e3a6-41b6-a22d-89fe4b702435"
+                LastKnownName="Label"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="efa5b1b5-7d2a-4f0b-b363-9746bdbaa6c2"
+            name="txtEmail"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="74f3fd1f-3cdf-4aa6-8795-3ba6087ec6ea"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DtxtEmail"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="318bab93-a6dc-4735-85ce-d541820e5c71"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66944842-f7a8-4883-90a2-2615bd77caae">
+                    <propertyInstance
+                      Id="b120886e-47c8-4688-9eb5-7ff57d00254c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5170b47a-7f4b-4cd0-8367-2016f00e646d">
+                    <propertyInstance
+                      Id="a830e8fd-0326-4fa0-ba42-4b60ace86a97"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bfd7789-254a-45f1-9b08-ac2b373414b2">
+                    <propertyInstance
+                      Id="c1578964-d639-4e44-9732-e98f3775ffbb"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7ffef59-41c2-4d50-bf47-e03b9d646c10">
+                    <propertyInstance
+                      Id="ca7e07d9-f26c-4bb9-8325-1d4157bccb02"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c11745fa-87a4-41a5-abc8-802beeb1382f">
+                    <propertyInstance
+                      Id="cfd4ed51-fa13-4527-b875-f78708059e0a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b8ed2297-95de-4148-a326-7178fd4b5c47"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b54389f0-b70f-485d-b655-3534209f0f2a"
+            name="txtFirstName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4423a017-aa12-47d1-9588-2818d40c4983"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DtxtFirstName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5174738c-e515-4cfb-80ce-ac71f6856645"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8c243c7-c1a1-438c-b9b5-334fb77412a6">
+                    <propertyInstance
+                      Id="62dfbc4f-cdc7-4d44-a78e-cee5e0e972a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71c0d93a-9331-47ac-b7f4-e4554d9221fb">
+                    <propertyInstance
+                      Id="feb15118-d014-4860-add7-d5e021a02c7b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f8a6b22-c8b7-4e76-bbc0-6f207596e4b6">
+                    <propertyInstance
+                      Id="51cc1edb-782a-4318-a361-2f9583ded3fa"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d510546c-317c-4f83-8a6f-06f4e5f98db2">
+                    <propertyInstance
+                      Id="9703b734-4053-4b52-8e80-d6d42403aaa9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f078b969-d0b1-4467-b88b-661de06e5c04">
+                    <propertyInstance
+                      Id="bab8523d-4bfd-40e9-bd06-b352565cfbf8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b8ed2297-95de-4148-a326-7178fd4b5c47"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="875b7c8a-0668-44d4-bc65-de3e58f232f5"
+            name="txtLastName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0f3464e5-0a0a-45ef-bbaf-322c8d07423b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DtxtLastName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7815d8aa-cc45-41f5-a0ac-48fb69ea1c73"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5711e615-2979-40b3-82e6-ec29bbaecdec">
+                    <propertyInstance
+                      Id="19391206-4332-400b-9640-bca53aab2b4f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06ad5a53-04d4-4ec3-a6df-85c88a18d88b">
+                    <propertyInstance
+                      Id="c6a39931-a52c-4aac-974f-e6fbdf0804ff"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bf9c8b1-5938-45d4-8eb5-73c20fbfe727">
+                    <propertyInstance
+                      Id="6c08d842-537d-4d17-8225-9a49a6781a44"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cebe5047-42c3-4ff5-9d01-2e76400011b0">
+                    <propertyInstance
+                      Id="e9044fd0-68ca-4db6-92c8-34ddfb333f17"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="815397cc-4cd4-4b62-8a62-97704c970383">
+                    <propertyInstance
+                      Id="40b57ae9-37a2-42d7-8949-8f1d222cdc60"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b8ed2297-95de-4148-a326-7178fd4b5c47"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6a7437be-8e5d-45cc-8361-af5dd0714982"
+            name="frmAddCustomer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f8fc418b-6b73-4532-add0-1f0210e3aaee"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c6d30b64-58ba-47d8-8da1-4e7de8f52723"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40798fe3-8614-4dc4-a534-feb45cbfb011">
+                    <propertyInstance
+                      Id="b624c68e-c582-4da4-9b6a-31acdf13559c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4914fdd-87bd-442b-9c9a-112fab2cd7fb">
+                    <propertyInstance
+                      Id="98d20397-4149-403b-abaa-8c3fbb4611b2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fd235c6-0104-47ea-bb4a-0d447b6dbf4e">
+                    <propertyInstance
+                      Id="c7e4b18f-9e95-4efc-91d8-a9d02163838c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09323998-7400-4b6d-83b6-3fb21fb064fc">
+                    <propertyInstance
+                      Id="544700a9-e96d-4729-a513-d9e74ada1329"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d70c24d4-7ec4-4723-b7c9-39051d14a081">
+                    <propertyInstance
+                      Id="0d7299dd-e767-49dc-a9b9-93417902a5f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a75ea696-2054-4f7d-a559-027a5dbda10b">
+                    <propertyInstance
+                      Id="43cbbd09-f125-46ae-9401-105ee44b7f94"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c9b8e230-cad6-43c7-b020-83764d6f02eb"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="92f4a714-7997-4938-87c2-015ddc31f56e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9546cb8a-c293-49b9-9ad4-e9f8e1d3ee6e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a5a7ff7-de34-4c86-86a4-2b6e2deb6ef8">
+                    <propertyInstance
+                      Id="945e33e0-a893-4191-aa4e-0e48396f7008"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52fc4b82-197b-4e16-8277-096158cb4408">
+                    <propertyInstance
+                      Id="c89df75d-cfb1-4dea-b424-40309bd730e9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c108792-d93c-42fc-b419-e7d8914ef55e">
+                    <propertyInstance
+                      Id="61455153-7c23-4e11-9f2b-ec70bc9a35cb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9876de56-cf30-465e-be42-37a15c1eb187">
+                    <propertyInstance
+                      Id="21961f58-9607-4136-8dae-394604e37dac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0615f7cc-c3ac-4db3-b054-cf96efc45d4f">
+                    <propertyInstance
+                      Id="480359da-1689-4e92-b1e8-2ccc8a1f16d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96a1bb2d-8159-440c-bcff-0e0cbb25f540">
+                    <propertyInstance
+                      Id="df429fb4-fd9f-47cb-9b59-fcb6bc9d9c7e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="8461d46c-0673-4f60-8dc9-12f5a260b110"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bd109dd1-8965-4480-bf28-b374484b3c00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b56fc0d1-961f-4cd8-9c15-585126ac32c4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a70cf9fc-9b17-4138-b9d3-762412d62b41">
+                    <propertyInstance
+                      Id="ad386f17-424c-4cee-9ab5-2b072051fe83"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41a833d5-ecaf-425e-ba65-581b59d05a6d">
+                    <propertyInstance
+                      Id="c39f84ee-546a-42ae-beb4-fd7bc4f80e29"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc04562c-a0d9-485c-b63b-5f13f8f411b0">
+                    <propertyInstance
+                      Id="80c83b69-b88a-4669-8643-f670c20630f0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd374e7-0442-4dca-8d17-ddc303743e40">
+                    <propertyInstance
+                      Id="95cf0129-f5da-4164-b624-e7b577941847"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb5b24a-fa37-4eb6-be70-e0c2338d3447">
+                    <propertyInstance
+                      Id="c490dd8c-018f-4c07-9912-bfd1eb915aa1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00957a33-c46a-4505-99b9-e4d442c31083">
+                    <propertyInstance
+                      Id="a189e590-a784-4d88-99e6-58a09762d0ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a88e9eef-5767-4877-b5da-315fe6f8509d"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0c6bb9e9-c476-4622-b044-800428883b28"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="CMDML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c7f1e569-883c-4ab8-acd7-aa6c81aa3d70"
+            name="btnCancel_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d05ad016-a62a-46f1-8db9-7a7fd44da071"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnCancel_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7beea0c1-521a-406d-b7e4-d8a649f47630"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b824b9ed-6bb6-4f49-aa13-2aeaf4dd880d">
+                    <propertyInstance
+                      Id="8f729a7b-6de9-4a6f-9426-29670ebc9f05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdf81d15-5659-4b37-8c46-8c9d32cfafbf">
+                    <propertyInstance
+                      Id="d3dffcb0-a1f3-43b4-a8e5-7687ce4b6c5a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce899e91-1beb-4a6b-aaa8-3ca69e786dfa">
+                    <propertyInstance
+                      Id="fe1049c1-6eca-4e25-a7dd-a0c8200fe621"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0577923-3ad4-4eaf-a59b-e51339b8ec73">
+                    <propertyInstance
+                      Id="758b95e6-9c23-43ca-abd9-692b90f516bb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e263f27-d450-4752-a172-4c50b9292a2c">
+                    <propertyInstance
+                      Id="56436c22-36ed-47c3-b9ad-2b1f47e0b294"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="665e3d1c-39f5-47c7-b2cc-71bc95d589d8">
+                    <propertyInstance
+                      Id="0250bd59-9791-4174-8f82-d953289964e3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d56290c-14bf-4b6e-b3fa-ff3fcd842aea"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53729769-de42-47ce-9fee-2faf90ac7d0e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnCancel_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f018f1ac-6d70-4a58-9db9-f105ec06e21c"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2bb63114-6862-4266-9df8-dd21f20646cd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnCancel_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4bc616b2-2158-496a-adbe-3e0704f39065"
+            name="btnSave_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9696c57b-3e84-4138-8542-37dc4ff1e80c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnSave_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e521234f-986e-44aa-96fd-a794fe8c4a02"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39fb6dc1-5f73-44f4-8fb9-6fb230f7ffb1">
+                    <propertyInstance
+                      Id="0daa0d74-b685-43e7-9c3a-58c9aa202929"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f47ba72-0cfe-43c5-a913-98e9c8412a3b">
+                    <propertyInstance
+                      Id="bfdf96e6-addc-4164-a412-0c61c54669e3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c12e7444-4e25-43eb-888c-4574c5f87643">
+                    <propertyInstance
+                      Id="9a53f22d-6fe0-4323-a987-d184ce282c07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc90038e-72aa-4810-9483-6808bd58708e">
+                    <propertyInstance
+                      Id="9a4c64b3-f02d-4649-9faa-9e74614cccda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="213f01f2-0f44-4b5a-9504-d1643b8c271f">
+                    <propertyInstance
+                      Id="c5b6ae08-005e-41c4-a116-2bf4c7bb9d37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ba2933e-54b5-4bdb-918b-e9c0a4e03376">
+                    <propertyInstance
+                      Id="77968375-b344-4f21-8062-345e4da75187"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21dd347c-b4e9-4333-b4d3-f56adb3259d7"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3e732fda-9a90-4a94-8174-02e3700bcabc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnSave_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f72af23a-aa0c-41ff-b785-2d34a772052b"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="10e93b31-31c8-4cac-93eb-e3f10eb62440"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3D(Name%3DbtnSave_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5cfa509d-9bb2-4709-8565-afdbcdd78450"
+            name="GetNewCustomer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="97db5a5f-c76e-4d64-ad45-0df2f1ccb90c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DGetNewCustomer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1853725f-c62a-4943-89f4-701b5cae3bf0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4e842a4-8f27-474e-9bc5-1b0f410ad840">
+                    <propertyInstance
+                      Id="8ab37802-7e70-4395-8711-a990f51a3234"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45a2f862-4d43-403d-a61a-a3984d29ddf8">
+                    <propertyInstance
+                      Id="8816942a-466a-4b85-9201-a1358c788544"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="708b34d6-b01d-4405-aea2-9002183300f1">
+                    <propertyInstance
+                      Id="743a5c7e-2ede-4e81-bdec-e2b311105f4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad9da2e6-784e-49bc-bf9d-6138cd2095d3">
+                    <propertyInstance
+                      Id="2fbc658d-9709-4ed1-9f2d-629f0d28735f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8476cd16-fbf1-4223-80ff-f653c1aa18b2">
+                    <propertyInstance
+                      Id="6363e4c0-fee3-4095-9c00-4f57fae84a85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f02d0af-6b78-4537-b803-46b3c79f2e3a">
+                    <propertyInstance
+                      Id="acdf11d9-6e54-420a-bfca-f5f7c722f9f9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="862b26a7-c548-45ee-ac10-2234968e7eca"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="125ad419-ac86-40cd-a6cf-c9f26da3e86f"
+                      LastKnownName="Customer"
+                      LastKnownLocation="Package_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fafd8afc-137d-40b6-a397-2cfad6332872"
+            name="IsValidData"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f92d7ca6-d60a-40bd-83a2-0461f079b1b1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmAddCustomer Member%3DIsValidData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d288f44b-5119-4d04-8946-bdf5fe397488"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="436bf05e-6c63-4a53-8a6a-5d3b1627d37c">
+                    <propertyInstance
+                      Id="3b852386-01d4-4e15-b2d8-21fcffde1364"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dfcb47d-58d0-4c58-885b-f50ca855925d">
+                    <propertyInstance
+                      Id="e1400e0f-0dd4-4c93-a874-c029446f3697"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee57d84b-a7db-45c7-8470-385286c70f38">
+                    <propertyInstance
+                      Id="1330e011-8073-424a-a7a1-94b660419e2e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c2ec898-97b2-4a70-8054-8978501fe2c4">
+                    <propertyInstance
+                      Id="78e7a429-9b50-467c-ba3a-2304ce417be7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f07708f8-fdb2-401e-bf8a-1ea1b969b7aa">
+                    <propertyInstance
+                      Id="6ae99fc5-7328-4f12-a8d0-c166f695bb20"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c74e7232-a372-4d2c-a2d3-3884ded7d188">
+                    <propertyInstance
+                      Id="8e907f3d-383a-4887-9f64-845a6858369c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1cd20080-d4fe-49fd-9dd1-1e4a366dbe2e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="CMDML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7bfa0c1f-118a-4bf0-93a1-0795c8cf29bd"
+        name="frmCustomers"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="83170335-0cb7-45aa-888c-a57490e9fae1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f6569ced-3326-4a26-b16e-8adefb8cda47"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f710295-55a3-4187-b1f1-8e4619117789">
+                <propertyInstance
+                  Id="db135543-77d9-441a-9689-0a7483b54e96"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c6defa2-5933-4197-b1a1-699bab7f8a28">
+                <propertyInstance
+                  Id="5edce709-66c6-4c6e-b5a0-d77d5af89bc6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a7d4428-54db-4e1b-8d58-6c545e4565e4">
+                <propertyInstance
+                  Id="2ce69dce-ea7d-409e-a0bd-f7830976e383"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab6b0698-c4ee-4cf9-baf5-2a3fc7563eee">
+                <propertyInstance
+                  Id="ee4cdc95-080c-4ec6-8041-abba95a5d336"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c4aeeee-9a52-4088-825d-ec5be1920c97">
+                <propertyInstance
+                  Id="b3b0b0f0-644f-4db2-ae92-251c7634f8b0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f654bf30-368e-48de-8464-80c6b1e71ccc"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fb7e29e9-5e14-4ce7-a892-e364d9cfb700"
+              LastKnownName="Form"
+              LastKnownLocation="Package8_1307.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="bb773ef0-0a33-4a61-948d-ed1bfb6c8b3d"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a2857e3d-19ee-4fbc-a8a6-c330209efd63"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9349a0f5-6d4b-470e-93e1-f66aba809c0c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52466d93-b1bf-4174-8672-1f7b61d71386">
+                    <propertyInstance
+                      Id="35eb5691-01ab-4453-a53a-310aa985e679"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bed66b3f-4f08-4d2c-b94e-8ceffe50a347">
+                    <propertyInstance
+                      Id="14afe45e-aa0d-4227-8e59-a5d0375e6953"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c244b1b2-b329-43f1-ad88-975d9361809b">
+                    <propertyInstance
+                      Id="1a1d962b-d919-454c-94b8-0d711d917647"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad9cc795-55d3-4781-956e-fec956deb24a">
+                    <propertyInstance
+                      Id="b1337855-b1c2-4bda-af2d-86c7b69a4726"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d0ffc04-f9d5-4309-a8e0-b89ae2c234f7">
+                    <propertyInstance
+                      Id="1c996438-362a-426b-8a69-606569a2dbf4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="aa40b0a2-7540-4e2e-a8d0-39db13c3a60e"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package6_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2a30f362-61b4-4dcb-8586-2cdbeb00a61e"
+            name="label1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="519b80aa-06bb-424e-91dc-70ebd30cbebb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3Dlabel1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="57508205-cd78-4706-86c6-0d618c15f550"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca7544a-9099-4fc4-8472-ec4c03a81f52">
+                    <propertyInstance
+                      Id="90bba0a5-77f1-4a7a-bc22-5d797aeb5f7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26436323-a24f-4223-8c2a-941f6533c894">
+                    <propertyInstance
+                      Id="b4d7dc63-bbfd-466c-8462-27ed1a2b26f4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09289158-117f-4453-8c83-95919a06712d">
+                    <propertyInstance
+                      Id="2f03e5d9-7efe-400b-b104-87d78ef3b878"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="140f1766-6fa2-48e3-80f0-53ae1f57d409">
+                    <propertyInstance
+                      Id="2b502ac8-d2db-456b-aece-b4c9523b0b3d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed5215cf-c4b7-4213-93d8-5d35a66d5108">
+                    <propertyInstance
+                      Id="466bcccf-8dd1-4ced-83a3-70d86818794d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="eadba0ee-e3a6-41b6-a22d-89fe4b702435"
+                LastKnownName="Label"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b36f8682-8415-422c-8111-86a577b13bc7"
+            name="btnAdd"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="726eccee-06d6-42c9-b863-0120078f173a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DbtnAdd"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4f3c85d-29a8-4c55-aa57-31b0d30f86fd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ada00e7e-9f7d-445b-b87e-40f4e5c36765">
+                    <propertyInstance
+                      Id="f81ed97f-70c0-4dcc-ab88-40de3b24af50"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ee80d1e-1eb8-4399-8d87-1cf5e9a12401">
+                    <propertyInstance
+                      Id="f4d61d8d-0bcb-4ee3-89ce-927676c9af1a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="490fdebb-d30e-41a3-89e0-6a0bf380a869">
+                    <propertyInstance
+                      Id="d90e7d40-dd6d-475c-9a90-d27d50e20f0d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbb5a491-c557-4bdb-9179-e587c7913ec2">
+                    <propertyInstance
+                      Id="5b3faa89-62de-498c-98a2-f9a8df97b0bf"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d815536-c278-4455-8a84-e863bc597f91">
+                    <propertyInstance
+                      Id="087574c2-7b2c-44a9-8777-78c39b17f78a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0303277a-cc54-42ab-acd7-7fb80b5dab8b"
+                LastKnownName="Button"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e91d39ee-2fe3-4016-8451-c074d3512a2b"
+            name="btnDelete"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f3af282e-d0e6-4839-b9dc-0412df208470"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DbtnDelete"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="82b1c755-061d-4df4-b44e-d14eca35799c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43ac8e00-142e-4a9d-bc76-bab554aa739e">
+                    <propertyInstance
+                      Id="ad252dcc-c57e-450e-a7cd-a61f740cb54c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e5534a9-25e1-412c-9cb0-e4b7ccc9e16a">
+                    <propertyInstance
+                      Id="87f3db7b-7a80-413e-8e6e-6eb7d83c3b1c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d1b0dcc-92dc-41c1-881f-76d41f05bcb0">
+                    <propertyInstance
+                      Id="a01ace9e-0dcb-40d3-9f0b-ec4e91e2cee6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edec72fb-c118-4aaa-aa6c-eb8a2ab4d892">
+                    <propertyInstance
+                      Id="b97b21f7-2d8a-435f-b8cf-4a24a7745f2c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf66d2cb-82e9-4a61-bb68-6a21c9c0eb51">
+                    <propertyInstance
+                      Id="42d91563-92fe-4ca8-9829-f2971111054d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0303277a-cc54-42ab-acd7-7fb80b5dab8b"
+                LastKnownName="Button"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="76712c75-128c-4df1-a0f6-f6b61f2406b5"
+            name="btnExit"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0a14e8f5-53ea-4fc2-803d-edbdf39c9c90"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DbtnExit"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0f45d66-74b2-46fc-838b-bf492d5f42bc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4934a51-3929-446b-ba64-9ea865ccfbb0">
+                    <propertyInstance
+                      Id="be60cbe6-2538-4c91-82a2-e0adf256b41c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c278c949-61ad-41dc-8a29-151034125ce4">
+                    <propertyInstance
+                      Id="d0c30c91-fd70-4e33-a4ac-9b7a5b20cab1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b382306e-4eae-4042-a967-295ebc71feb4">
+                    <propertyInstance
+                      Id="82091837-a23e-4425-838c-c684893e452b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c88667af-311c-4572-be94-69a56bd8ee9c">
+                    <propertyInstance
+                      Id="bddef9a3-467a-4ba6-9bd4-7fc09763565e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff3a23ab-33cb-4c7e-b8ee-c6edcd3c6a67">
+                    <propertyInstance
+                      Id="4faf7e80-45ad-438a-af9d-241c7066a3a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0303277a-cc54-42ab-acd7-7fb80b5dab8b"
+                LastKnownName="Button"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3924c33b-5494-49b8-97ce-36004d8265d3"
+            name="customers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c3b2597f-5085-44ab-bc1b-0f5b63e5a857"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3Dcustomers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6aca271a-236c-4284-aafd-01eef068a6b6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc72cd34-c6e4-4ab5-8848-a9e964786413">
+                    <propertyInstance
+                      Id="8fa816c6-fbff-43fe-b947-fdc547e76bbf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1b01476-cf48-48d7-ba8a-71f11ccb13cf">
+                    <propertyInstance
+                      Id="4c5c0b84-3259-4ebb-811e-5fa9a63e4db6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fe5c96e-8233-46d8-a7ea-6fcfa793df1f">
+                    <propertyInstance
+                      Id="730408a0-56f0-4df9-b538-90a93eef2ee6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="237f683c-49e5-4669-ab9d-cff13b3055cb">
+                    <propertyInstance
+                      Id="399ca197-034f-462c-84f8-3e6c4c6d9e4a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7585445-304f-4d8d-9f90-bc8178594441">
+                    <propertyInstance
+                      Id="223c880b-2380-4cca-8bad-70622c05ebf0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="95b01def-e5a1-4325-91e1-1eabf1679d57"
+                LastKnownName="CustomerList"
+                LastKnownLocation="Package_1307.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="00c47404-ed01-49a0-86d9-c9f6cca74888"
+            name="lstCustomers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dcd090c4-0326-430b-a64c-46397382a03a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DlstCustomers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6468811c-ddd5-4a51-bda7-1b21f79828f2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ae61068-4f9e-45ab-b2b7-964195fc4f38">
+                    <propertyInstance
+                      Id="81001aa7-3207-435f-bb9b-83a05b134e80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b97e10a8-7705-41f9-8000-173b93ec3fb0">
+                    <propertyInstance
+                      Id="656252b5-8ecf-44aa-8a2e-08ee6e529f39"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa1ee306-53ba-4e91-adef-4f38255f6351">
+                    <propertyInstance
+                      Id="b0673fbc-5f64-463d-8b9e-5cb934acae2a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eeaea7de-db1e-4215-9e58-d893464a3ca4">
+                    <propertyInstance
+                      Id="6807a0fa-2afd-41cf-bae2-78042e8cb57b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f40ca628-4af4-4ead-9711-0910d3885994">
+                    <propertyInstance
+                      Id="a81e2cf1-bab9-4fde-b4dc-f1427ec4c366"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c41a0922-e39a-41f4-9eef-9cdacaa4394c"
+                LastKnownName="ListBox"
+                LastKnownLocation="Package8_1307.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2aa11154-ba85-47db-aba0-048565e728fe"
+            name="frmCustomers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d1eadde-3648-4fcf-a15b-6063f02f075e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f1f1ecb5-2656-42fd-ae66-abbefc4a1489"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a99b8f9-ae81-4883-8a0c-3f74632fd777">
+                    <propertyInstance
+                      Id="aa35d3c3-b446-4ebe-bd81-3123c1ae918f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b025049-f752-4238-a5f9-b0ac741d4194">
+                    <propertyInstance
+                      Id="0c07b95e-ad2a-42ab-b494-37a7f11adeeb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b62b7a4-cee6-4264-865c-f8a4ff1fb39a">
+                    <propertyInstance
+                      Id="11d5a174-9fbc-4d4d-9d8e-f88975d79f36"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bafb54d-75fa-4aca-9352-4fa9ab09703a">
+                    <propertyInstance
+                      Id="e662aa08-5de0-431d-8df9-15bb762caebf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7b5feaa-69e2-4028-8ec4-d624e125f9f5">
+                    <propertyInstance
+                      Id="e18116d0-ed77-4d51-91e2-e9a3e9d98581"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf166b85-d452-43e2-b4df-ed1510be4d27">
+                    <propertyInstance
+                      Id="3ea01884-22a6-4442-9793-c2d93e03c12f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c51fed7b-232a-4e3a-9b00-616b90be5e55"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8c62059f-bb53-412a-9436-3570141392d0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc5e82f2-5eff-4b54-b182-d0bfa5a1de0c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1eeb451-bdda-42f5-802e-1fab0955501a">
+                    <propertyInstance
+                      Id="cbb9ceac-a13e-4fa5-9000-1c98a081bf7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a03407e-1481-4119-9395-7b931ea4a72e">
+                    <propertyInstance
+                      Id="e84cb69e-6c5f-443b-bc97-c2e75c6c4db3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f28ceec2-41ff-4b9c-9ef9-ee9b50b6356c">
+                    <propertyInstance
+                      Id="588efe03-29a2-4722-90da-7b940718293d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fddd8ba9-4d1c-438b-bda4-14dad0097575">
+                    <propertyInstance
+                      Id="35e28743-8f28-4776-b03b-71631b075ab6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95dc6264-9fdb-4673-9cdf-69a9f1733a40">
+                    <propertyInstance
+                      Id="0d1c94cf-55c3-4480-b15c-c3d33f48f9f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46e66043-4464-4413-9526-a437e547e2ea">
+                    <propertyInstance
+                      Id="729aa9dc-e870-4c34-a37a-41b940363150"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f268a6ee-165c-4b6d-9d40-077518855d88"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5a7e123d-47d8-4239-ac3d-1f0d42e5ad54"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b16a9d3-f195-453c-9b51-483ff3b44567"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a024fd43-50e0-4227-bed0-ddaa038f5305">
+                    <propertyInstance
+                      Id="c8577415-bc79-4630-a195-4f4e65ce4d04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04e8089d-c603-430a-802e-39a526e2e8d0">
+                    <propertyInstance
+                      Id="973dbdb4-819d-454a-ae48-139f3b61f7a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a7a6dd-8d9a-4a2a-b5bc-7dc2d06f38a4">
+                    <propertyInstance
+                      Id="488e2bf6-11a7-43ba-95ba-af81c847f897"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80776fc6-fdb3-4cb7-af70-8157fee62841">
+                    <propertyInstance
+                      Id="2e7d4d27-83d5-4e2e-a858-0ca836525f50"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="684fc87f-0b77-4094-9547-ead04ba4732f">
+                    <propertyInstance
+                      Id="24cd2347-105d-4281-9a47-48693b3e7b0d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92ea1f04-994e-4ea0-996a-fb9d97beb334">
+                    <propertyInstance
+                      Id="a21053cf-e67d-43b1-bb34-fad999f3c428"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b4071824-a15f-4456-b9b6-043f8550fb24"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="74717ddd-0c00-43c6-829c-cc64fa7d6921"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="CMDML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ae700402-3707-4361-9f13-03e9b6465fb0"
+            name="HandleChange"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c6202f1b-bedd-4b6f-a311-670759df3eb8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DHandleChange OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenanceClasses%2Fbin%2FDebug%2FCustomerMaintenanceClasses.dll Namespace%3DCustomerMaintenanceClasses Type%3DCustomerList)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c17b573-27aa-4e11-82d2-6139d14b2f61"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb3c6f2b-9cfc-44f4-9c67-8420d7bb8966">
+                    <propertyInstance
+                      Id="07f0ede8-154b-48cb-8dbf-9706554a828c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85c471a5-38f5-4895-8cec-f13536f03364">
+                    <propertyInstance
+                      Id="2959d1b3-1801-4bf9-9b17-2f4d665e0c94"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cd58c2f-c9e7-4529-b430-82548efdd700">
+                    <propertyInstance
+                      Id="e5f1b438-b19a-4a4a-a70d-75561ffb3097"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d6cba66-eea9-4ba9-a59e-d319cba87894">
+                    <propertyInstance
+                      Id="641010eb-4dd4-417e-bd91-e49448edf9b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a45857f8-503b-450a-9166-be1b4fa49b7c">
+                    <propertyInstance
+                      Id="dc56a678-a033-402a-83b2-4d086d575e35"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2faa206-5f98-4218-a112-31cd31b90db0">
+                    <propertyInstance
+                      Id="dd001dde-00cc-4c5d-9374-88dbb4708a55"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dda0525c-7fdf-42d5-9ac3-5da96dfa4644"
+                  name="customers"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="68ac087e-3cfd-4809-ad11-c3cd265a406e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DHandleChange OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenanceClasses%2Fbin%2FDebug%2FCustomerMaintenanceClasses.dll Namespace%3DCustomerMaintenanceClasses Type%3DCustomerList)]) ParameterIdentifier%3Dcustomers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="95b01def-e5a1-4325-91e1-1eabf1679d57"
+                      LastKnownName="CustomerList"
+                      LastKnownLocation="Package_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a04d02c9-149a-4acb-8c31-668f0517e697"
+            name="btnAdd_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="70e339b7-e5dc-479f-9bff-a5d3e7c7b4ee"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnAdd_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10e3db73-fa57-488d-b854-10572e8457ca"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d93c7752-04db-4875-be63-5f1d4faca6f6">
+                    <propertyInstance
+                      Id="b843e397-de4b-444d-9a8d-e93690f00c56"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ade6b651-0bd6-45ff-9e0f-7bbc142dbaff">
+                    <propertyInstance
+                      Id="406a9ca9-62ea-4323-bd60-f10a8e2053ef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f95057fe-3acd-4ee1-b4e5-717fa007a6da">
+                    <propertyInstance
+                      Id="21e55efb-9e59-45be-a834-e1f3513422b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8e1b210-d1dd-47dc-ab23-cb210b58ebd7">
+                    <propertyInstance
+                      Id="247d77d7-2f58-49ab-838a-03ad141f0378"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa5d1f9f-61ea-492d-9ea2-cca9368bea48">
+                    <propertyInstance
+                      Id="a02aeb31-82c6-4f5d-b7ab-81192a507a4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f978a909-56d9-43c4-a5e8-e31a23cf1f0c">
+                    <propertyInstance
+                      Id="d3d10d43-e031-463e-a452-9133a660d652"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa13de63-58d4-431a-845b-a325fc092e93"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6dfdabcc-5e9b-4ea1-9c3b-fbc237e80067"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnAdd_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="094d8593-03a6-4394-a5f0-075f412d4a6c"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="37e4f0eb-46a6-4a60-b86d-81d35a423829"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnAdd_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4f38dbcd-0d67-4d98-aefc-2ea2a5bfd8fa"
+            name="btnDelete_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d5f41018-c15d-4118-8d0c-4c86802d591b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnDelete_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cede40a6-1fe8-4d04-b75f-01c44b14aece"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7126bc8b-d1e2-477a-b630-3ae8842c21b4">
+                    <propertyInstance
+                      Id="64b78ab5-d28b-4b32-8e6b-c0f4aa8658ae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58dbaaa0-1ed6-44a8-bb7f-9da2b17d49dd">
+                    <propertyInstance
+                      Id="87351121-c1a6-45d6-b895-5d2f729c5062"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c73f348e-cda5-40e3-b8b2-e38e913a2fc4">
+                    <propertyInstance
+                      Id="9ed608f7-67e1-479f-8d95-0cc46cab0201"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53a0e3ba-ff6a-4014-8b17-ba0389ac5011">
+                    <propertyInstance
+                      Id="dccde8f7-43bf-4d41-87e8-a48fd891d974"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5edc640c-3cc6-4d80-867b-fd541de943d6">
+                    <propertyInstance
+                      Id="6ac1500c-243f-4ae7-8876-683dfa5315c6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50a54a40-6b9f-4ea0-9895-23c72e7d0b70">
+                    <propertyInstance
+                      Id="e1f4fe1b-7bc0-43b1-aa38-19ba6e1955de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4e8bd29e-fe0e-42d4-aa57-4b29291995b0"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="abdc3309-3a82-467c-a257-1e1610bb9bca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnDelete_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="47573085-c78b-418b-add7-02d7286c6d31"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e392ec47-81a7-42a6-aa57-1cefa7966a1c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnDelete_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7d6fd907-5ead-42f1-a336-d2219c0ec9b7"
+            name="btnExit_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd006867-040d-4c87-b335-8c8d89383f38"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnExit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="14f7b545-bc99-49b7-9ad3-b3c115f131e0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c334743-dc29-4635-a76f-d6f73039db99">
+                    <propertyInstance
+                      Id="b707b335-bf56-404b-94a9-ee86e8085dbf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c062a213-9e43-4645-999d-785058296555">
+                    <propertyInstance
+                      Id="0e5becf1-8ece-4fb8-859d-6b67f9866d1d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e10eed60-4d76-468a-9ecb-0c4dabcb7303">
+                    <propertyInstance
+                      Id="978fc4e1-57db-4305-bcf0-efe9356aaf49"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3d358a4-6b67-45e3-a425-65800890b516">
+                    <propertyInstance
+                      Id="ea60c1c5-5945-4c39-a3a9-d2bdb425c081"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c221fb28-d2db-458b-831d-19ff39cc6fe5">
+                    <propertyInstance
+                      Id="3fe0aefd-3562-4f4e-94e7-53939c6f3f90"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56de5b77-65b8-433f-a030-19f14f2b0211">
+                    <propertyInstance
+                      Id="407837fa-2dc6-45f9-a417-0893936343b9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9d6265e6-392f-4cb4-9836-bda03d562f03"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8ca76e51-3ff4-4008-96c9-b5f94488b5e2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnExit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="454d5c95-0ea1-43f7-a30a-5d64ba28420a"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61f1eb23-511f-43e1-808a-b4798a57a36e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DbtnExit_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="694f28e8-2d7a-47e7-b292-cdd91a5ea717"
+            name="frmCustomers_Load"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9b66c02f-c237-4750-8064-775c2724e3bd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DfrmCustomers_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aca41ee7-86c9-4b9c-9abe-60f1bd01cfe1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f121e8b5-6e2c-41e9-80c3-b696e700d0cc">
+                    <propertyInstance
+                      Id="bc879d1e-8148-47c2-bf25-1183c04ac87d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e2477ab-e3fc-484c-8a48-2329373531b9">
+                    <propertyInstance
+                      Id="d917cb3c-d03c-4b28-94b1-4fb312ec2ca3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0baf7ca-7a02-481a-8606-b9aae25e41a7">
+                    <propertyInstance
+                      Id="a54be4ad-45a6-46df-8522-b68ca8b9fdcf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85fc8655-e079-47f7-82d1-9de62b51469c">
+                    <propertyInstance
+                      Id="f94c3d42-f243-489d-acc3-1e524ab4023d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ae6d839-6596-44da-a3a5-dfa032d591b3">
+                    <propertyInstance
+                      Id="48723b5a-99c0-4fcf-a138-509419c9fbf0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be0047b8-7f8a-4e54-8bfa-a25f43ad8e11">
+                    <propertyInstance
+                      Id="3c3f6bf3-4dd8-4c72-bf56-a8411d401ec5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc6ba724-01eb-4c92-a628-3b8d7863f41b"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c17a34c3-26a6-4568-a5a5-847aa7e2f02b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DfrmCustomers_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c6b50589-8949-4d80-b40d-2def790368f7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e9bad6f9-f710-4491-9002-5860b37e087f"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7de70625-dfa3-4c44-a12a-7abcdd2785ae"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3D(Name%3DfrmCustomers_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4a4c541f-be52-42c4-8857-a2eebfcd2d97"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package1_1307.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0e6d809b-f90f-4907-b09d-f862a4cc1ce7"
+            name="FillCustomerListBox"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0b5fb6a6-c3b2-4fdd-b366-6ac02a6eadde"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DfrmCustomers Member%3DFillCustomerListBox"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ca4491d-4f09-44d2-9786-e5338b9df5f1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9c4e069-705c-46c7-98f3-76931c7a6785">
+                    <propertyInstance
+                      Id="9f032cef-5f80-4463-ac3f-1321dda82170"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdb92ce2-ac3e-43ff-8bbe-e374271fe7bd">
+                    <propertyInstance
+                      Id="b0b70276-ee59-496e-b232-e5d5fba9d630"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab825bb0-4bef-412b-9127-38a899243698">
+                    <propertyInstance
+                      Id="7bb8b537-992a-405f-b2c7-e88a0b22c33b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c69a3bff-4cdf-4f33-8703-7e9c177b5048">
+                    <propertyInstance
+                      Id="ead443fb-359c-443b-8093-c570262ccee2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74ae60c9-7108-4083-bfca-b7573fc3d1de">
+                    <propertyInstance
+                      Id="ff07a456-3d82-4d22-ae92-a5146713a13d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65273bbe-4e0b-4cd2-8a84-88031ce55322">
+                    <propertyInstance
+                      Id="7dd5b7d7-8232-4dba-831b-4f5690dd6af7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="979df6ec-559e-4c15-9aa3-4615137b7497"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4fffe63f-d298-4b7c-b709-c28de17545d1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="82f99a92-19aa-49ea-b86f-3e49e9c1d684"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b06d07ce-c6c0-4a07-b8cf-6e6d2e8254aa">
+                <propertyInstance
+                  Id="0cb0b4ba-1399-4713-8cf6-e182698d5ec4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87afc636-3e34-49ba-9cc1-5520b7426d59">
+                <propertyInstance
+                  Id="71d46010-1fb0-481a-afc5-57ed0ec0e5c0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b540a3ee-c424-4d4a-ad1f-8ef568f1655b">
+                <propertyInstance
+                  Id="43262627-4c03-4871-8ae6-b8a93c9b0ff7"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ebbbed69-67c6-4371-aacc-86f4af00b1ac">
+                <propertyInstance
+                  Id="88b33235-5118-4674-8acc-11b4c1639ef5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1da6c297-e560-4bc4-92c3-f2e7fa16b889">
+                <propertyInstance
+                  Id="86a12ac1-0af1-4224-bd06-b9fb967e3ec7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="41342ec6-4ff7-4271-8f8a-bff3af049761"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dfb80e24-991a-4721-b818-65be8a1473a4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FCustomerMaintenanceStart6%2FCustomerMaintenance%2Fbin%2FDebug%2FCustomerMaintenance.exe Namespace%3DCustomerMaintenance Type%3DProgram Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95196939-d7b6-4fb8-a0c9-1bd13dcc327f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc36a3f2-93d5-4319-b88a-9af19aaed04b">
+                    <propertyInstance
+                      Id="767aca4a-2f68-438c-b46d-031292b5f707"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ab99e07-a3a6-44dd-8b6d-4cd703a56ae9">
+                    <propertyInstance
+                      Id="350736a3-56d0-4593-ba4d-046980c8a27c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="195859de-62ae-46f9-bef3-e1a853002393">
+                    <propertyInstance
+                      Id="286209c5-d9d1-474c-ad5d-b692160b6849"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0863b815-ecb7-461b-9a40-df71b878a4e3">
+                    <propertyInstance
+                      Id="618d718c-d610-4e09-a4c6-237ba842df37"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c451bed8-1802-458b-8261-8b65e446ab3d">
+                    <propertyInstance
+                      Id="beaea756-ead6-43d5-a337-11ebf87b5b3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceb26f03-fff6-48f5-af26-90052ce55c57">
+                    <propertyInstance
+                      Id="627c5e31-638a-4ef0-bcb8-07d1190ddb99"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d367e144-00aa-4407-bcd3-1da3de424fc1"
+        LastKnownName="Properties"
+        LastKnownLocation="Package11_1307.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

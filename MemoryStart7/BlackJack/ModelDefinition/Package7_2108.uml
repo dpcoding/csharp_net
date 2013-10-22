@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="22ef11c5-28d8-4a8e-ad10-d8d5659ea85f"
+  name="DeckTester"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c3fe5ed3-968c-4c29-9f88-0119f982a286"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDeckTester"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c0d8611b-28b4-4d8c-a66c-44e9721668b3"
+        name="DeckTester"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cf7f4201-4d87-4e3b-9203-3910d46e7ac0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FDeckTester%2Fbin%2FDebug%2FDeckTester.exe Namespace%3DDeckTester Type%3DDeckTester"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e9c40464-3800-418b-95bf-4c676f574147"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79b48b6e-e9bc-4f7e-b5c4-31fef46a871c">
+                <propertyInstance
+                  Id="90f228f1-309d-418d-a345-6bfa92e346cf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="081fb215-25d3-45b1-b41e-79c8178134cb">
+                <propertyInstance
+                  Id="0df2712e-46cb-449a-9513-cd67b87fcec3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="245ec9f7-f708-430a-ae4e-4030544067e6">
+                <propertyInstance
+                  Id="3819c7f3-c4ce-41d6-90e8-0a284e3eda35"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e67e0b21-d243-4535-be6d-843fce5c6fe7">
+                <propertyInstance
+                  Id="260e4d58-4eab-429f-93ff-f6ea64cdc25f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8f9733b-6417-4d21-b33a-982326857353">
+                <propertyInstance
+                  Id="40bc0d01-af84-4ad4-9399-a9d5c5c29e84"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="999bad0f-cc54-4e6f-900d-d9c2dd0dbc4a"
+            name="DeckTester"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b77ed337-cd95-4cab-b49a-6625776145b5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FDeckTester%2Fbin%2FDebug%2FDeckTester.exe Namespace%3DDeckTester Type%3DDeckTester Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="04977976-785d-4199-951d-a7e591ac8ca9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b26c3717-9d56-4893-bd6a-feb75246e351">
+                    <propertyInstance
+                      Id="d444846b-f69d-4ffe-be01-f65dfbe2a794"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b4a532f-b4ab-4516-8de9-71f346f7efa9">
+                    <propertyInstance
+                      Id="617e35d4-0c65-48fc-b342-b94013f09c58"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="217fca99-f795-44ae-95a7-89e0caba1da0">
+                    <propertyInstance
+                      Id="670c91da-6a4a-4e6c-b24c-7e0a68a2b921"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa2a3ec4-0d93-4507-af7c-c6a6739ad6c9">
+                    <propertyInstance
+                      Id="ea195ca0-0f94-4214-bc18-dfdbb99ddda8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ccf0a64-1c2b-42de-825d-3031da949cc6">
+                    <propertyInstance
+                      Id="94d437eb-d0ee-4c2c-835c-eea273378f6f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64b381d5-110c-4391-b4c8-f47d7675fcd0">
+                    <propertyInstance
+                      Id="e143adb6-7cc5-4f24-9d22-488d37e03480"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4aa1e82c-cfa7-4e54-9f8f-afa083a7ab31"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="359767db-3ef6-4baf-95fe-b31c588960b6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FDeckTester%2Fbin%2FDebug%2FDeckTester.exe Namespace%3DDeckTester Type%3DDeckTester Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f023924c-0684-40d6-aeab-832d425533bd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bea3c045-7a2b-40d8-9264-97cf9845a4df">
+                    <propertyInstance
+                      Id="2cbc51ef-a70d-4cae-86b6-1402e3ce50c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6a56a85-ed1b-4439-8938-d1dc56fb2f50">
+                    <propertyInstance
+                      Id="00167aa1-d505-44ed-a57e-12070eae8229"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="956759ae-e976-4f8e-845f-ae1fd50d5cae">
+                    <propertyInstance
+                      Id="3b2dda56-c428-47e4-a466-7dd0fcf51058"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22ee602b-b2e4-4274-b190-888f4707bca9">
+                    <propertyInstance
+                      Id="266390ff-f265-4915-a7af-d20d682058d2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3c91c11-86c3-40aa-8cb0-03f1350501d4">
+                    <propertyInstance
+                      Id="1ab19ef5-e041-4790-8116-6b1d79a0c24a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85c599cd-f072-441f-bc1b-267f83004590">
+                    <propertyInstance
+                      Id="5bcefdf7-fc5c-4205-9669-530577b2099e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3bb4eff1-27e7-4590-aa45-18af23a84d1c"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="a2449174-60e2-4878-8789-18f386937cb3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDylan%2FDocuments%2FCS233N%2FLab6%2FMemeryStart6%2FDeckTester%2Fbin%2FDebug%2FDeckTester.exe Namespace%3DDeckTester Type%3DDeckTester Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f2e868b6-0ffe-4da2-bbd2-c225a0d937b8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d3c85c78-eeb6-49d9-a209-8a9756cb7b17"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BlackJack.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

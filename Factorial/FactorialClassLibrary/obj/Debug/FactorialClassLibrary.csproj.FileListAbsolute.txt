@@ -1,0 +1,10 @@
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialClassLibrary\bin\Debug\FactorialClassLibrary.dll
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialClassLibrary\bin\Debug\FactorialClassLibrary.pdb
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\FactorialClassLibrary.dll
+E:\CS 233C#\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\FactorialClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialClassLibrary\bin\Debug\FactorialClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialClassLibrary\bin\Debug\FactorialClassLibrary.pdb
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\FactorialClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\FactorialClassLibrary.dll
+C:\Users\Dylan\Documents\CS 233C# Spring 12\Lab 4\Chapter06\Factorial\FactorialClassLibrary\obj\Debug\FactorialClassLibrary.pdb

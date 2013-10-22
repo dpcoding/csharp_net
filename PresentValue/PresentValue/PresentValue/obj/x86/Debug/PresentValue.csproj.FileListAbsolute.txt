@@ -1,0 +1,27 @@
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\bin\Debug\PresentValue.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\bin\Debug\PresentValue.pdb
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\PresentValue.Form1.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\PresentValue.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\PresentValue.exe
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\PresentValue.pdb
+C:\Users\Dylan\Documents\CS 133C#\SimplyCSP\PresentValue\PresentValue\obj\x86\Debug\PresentValue.frmPresentValue.resources
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.exe
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.pdb
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.frmPresentValue.resources
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.Properties.Resources.resources
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\bin\Debug\PresentValue.exe
+E:\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\bin\Debug\PresentValue.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.exe
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\bin\Debug\PresentValue.exe
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\bin\Debug\PresentValue.pdb
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.frmPresentValue.resources
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.Properties.Resources.resources
+C:\Users\Dylan\Documents\CS 133C#\Lab 5\PresentValue\PresentValue\PresentValue\obj\x86\Debug\PresentValue.csproj.GenerateResource.Cache
